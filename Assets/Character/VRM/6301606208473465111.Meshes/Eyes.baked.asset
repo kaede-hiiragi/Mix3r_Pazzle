@@ -1,0 +1,3488 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Eyes.baked
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 576
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 130
+    localAABB:
+      m_Center: {x: 0, y: 1.5017221, z: 0.07060583}
+      m_Extent: {x: 0.08216402, y: 0.029567778, z: 0.02106492}
+  m_Shapes:
+    vertices:
+    - vertex: {x: 0, y: 0.019216895, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 0
+    - vertex: {x: 0, y: 0.019217014, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 1
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 2
+    - vertex: {x: 0, y: 0.019216895, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 3
+    - vertex: {x: 0, y: 0.019216895, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 4
+    - vertex: {x: 0, y: 0.019216895, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 5
+    - vertex: {x: 0, y: 0.019216776, z: -0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 6
+    - vertex: {x: 0, y: 0.019216776, z: -0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 7
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 8
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 9
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 10
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 11
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 12
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 13
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 14
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 15
+    - vertex: {x: 0, y: 0.019216895, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 16
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 17
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 18
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 19
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 20
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 21
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 22
+    - vertex: {x: 0, y: 0.019216895, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 23
+    - vertex: {x: 0, y: 0.019216895, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 24
+    - vertex: {x: 0, y: 0.019216895, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 25
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 26
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 27
+    - vertex: {x: 0, y: 0.019216776, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 28
+    - vertex: {x: 0, y: 0.019216776, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 29
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 30
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 31
+    - vertex: {x: 0, y: 0.019216895, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 32
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 33
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 34
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 35
+    - vertex: {x: 0, y: 0.019216895, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 36
+    - vertex: {x: 0, y: 0.019216895, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 37
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 38
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 39
+    - vertex: {x: 0, y: 0.019216776, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 40
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 41
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 42
+    - vertex: {x: 0, y: 0.019216895, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 43
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 44
+    - vertex: {x: 0, y: 0.019216776, z: -0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 45
+    - vertex: {x: 0, y: 0.019216776, z: -0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 46
+    - vertex: {x: 0, y: 0.019216776, z: -0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 47
+    - vertex: {x: 0, y: 0.019216895, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 48
+    - vertex: {x: 0, y: 0.019216895, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 49
+    - vertex: {x: 0, y: 0.019216895, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 50
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 51
+    - vertex: {x: 0, y: 0.019216776, z: -0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 52
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 53
+    - vertex: {x: 0, y: 0.019216657, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 54
+    - vertex: {x: 0, y: 0.019216776, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 55
+    - vertex: {x: 0, y: 0.019216776, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 56
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 57
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 58
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 59
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 60
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 61
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 62
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 63
+    - vertex: {x: 0, y: 0.019216657, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 64
+    - vertex: {x: 0, y: 0.019216895, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 65
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 66
+    - vertex: {x: 0, y: 0.019217014, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 67
+    - vertex: {x: 0, y: 0.019216895, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 68
+    - vertex: {x: 0, y: 0.019216895, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 69
+    - vertex: {x: 0, y: 0.019216895, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 70
+    - vertex: {x: 0, y: 0.019216776, z: -0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 71
+    - vertex: {x: 0, y: 0.019216776, z: -0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 72
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 73
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 74
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 75
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 76
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 77
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 78
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 79
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 80
+    - vertex: {x: 0, y: 0.019216895, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 81
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 82
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 83
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 84
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 85
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 86
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 87
+    - vertex: {x: 0, y: 0.019216895, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 88
+    - vertex: {x: 0, y: 0.019216895, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 89
+    - vertex: {x: 0, y: 0.019216895, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 90
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 91
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 92
+    - vertex: {x: 0, y: 0.019216776, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 93
+    - vertex: {x: 0, y: 0.019216776, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 94
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 95
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 96
+    - vertex: {x: 0, y: 0.019216895, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 97
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 98
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 99
+    - vertex: {x: 0, y: 0.019216776, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 100
+    - vertex: {x: 0, y: 0.019216895, z: 0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 101
+    - vertex: {x: 0, y: 0.019216895, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 102
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 103
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 104
+    - vertex: {x: 0, y: 0.019216776, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 105
+    - vertex: {x: 0, y: 0.019216895, z: -0.000000007450581}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 106
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 107
+    - vertex: {x: 0, y: 0.019216895, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 108
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 109
+    - vertex: {x: 0, y: 0.019216776, z: -0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 110
+    - vertex: {x: 0, y: 0.019216776, z: -0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 111
+    - vertex: {x: 0, y: 0.019216776, z: -0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 112
+    - vertex: {x: 0, y: 0.019216895, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 113
+    - vertex: {x: 0, y: 0.019216895, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 114
+    - vertex: {x: 0, y: 0.019216895, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 115
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 116
+    - vertex: {x: 0, y: 0.019216776, z: -0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 117
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 118
+    - vertex: {x: 0, y: 0.019216657, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 119
+    - vertex: {x: 0, y: 0.019216776, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 120
+    - vertex: {x: 0, y: 0.019216776, z: 0.0000000037252903}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 121
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 122
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 123
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 124
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 125
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 126
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 127
+    - vertex: {x: 0, y: 0.019216776, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 128
+    - vertex: {x: 0, y: 0.019216657, z: 0}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 129
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 0
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 1
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412403}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 2
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 3
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 4
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 5
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 6
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 7
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 8
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 9
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 10
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 11
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 12
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 13
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 14
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 15
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 16
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 17
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 18
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 19
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 20
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 21
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 22
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 23
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 24
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 25
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 26
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 27
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 28
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 29
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 30
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 31
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 32
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 33
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 34
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 35
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 36
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 37
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 38
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 39
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 40
+    - vertex: {x: 0, y: -0.031903863, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 41
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 42
+    - vertex: {x: 0, y: -0.031903863, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 43
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 44
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 45
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 46
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 47
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 48
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 49
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 50
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 51
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 52
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 53
+    - vertex: {x: 0, y: -0.03190422, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 54
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 55
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 56
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 57
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 58
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 59
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412664}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 60
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 61
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 62
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 63
+    - vertex: {x: 0, y: -0.03190422, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 64
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 65
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412403}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 66
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 67
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 68
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 69
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 70
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 71
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 72
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 73
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 74
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 75
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 76
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 77
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 78
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 79
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 80
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 81
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 82
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 83
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 84
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 85
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 86
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 87
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 88
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 89
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 90
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 91
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 92
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 93
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 94
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 95
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 96
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 97
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 98
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 99
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 100
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 101
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 102
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 103
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 104
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 105
+    - vertex: {x: 0, y: -0.031903863, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 106
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 107
+    - vertex: {x: 0, y: -0.031903863, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 108
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 109
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 110
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 111
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 112
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 113
+    - vertex: {x: 0, y: -0.031903982, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 114
+    - vertex: {x: 0, y: -0.031903982, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 115
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 116
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 117
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 118
+    - vertex: {x: 0, y: -0.03190422, z: -0.004741244}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 119
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 120
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 121
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 122
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 123
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 124
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412664}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 125
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 126
+    - vertex: {x: 0, y: -0.0319041, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 127
+    - vertex: {x: 0, y: -0.0319041, z: -0.004741259}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 128
+    - vertex: {x: 0, y: -0.03190422, z: -0.0047412515}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 129
+    - vertex: {x: -0.02040916, y: 0, z: -0.023909397}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 0
+    - vertex: {x: -0.020869292, y: 0, z: -0.023473796}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 1
+    - vertex: {x: -0.022402324, y: 0, z: -0.022055607}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 2
+    - vertex: {x: -0.020040326, y: 0, z: -0.024292663}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 3
+    - vertex: {x: -0.019776963, y: 0, z: -0.02460887}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 4
+    - vertex: {x: -0.019629225, y: 0, z: -0.024845857}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 5
+    - vertex: {x: -0.01960276, y: 0, z: -0.024994522}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 6
+    - vertex: {x: -0.019698575, y: 0, z: -0.025049161}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 7
+    - vertex: {x: -0.019913033, y: 0, z: -0.025007665}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 8
+    - vertex: {x: -0.020237848, y: 0, z: -0.024871636}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 9
+    - vertex: {x: -0.020660564, y: 0, z: -0.024646286}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 10
+    - vertex: {x: -0.021164939, y: 0, z: -0.024340287}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 11
+    - vertex: {x: -0.021731548, y: 0, z: -0.023965389}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 12
+    - vertex: {x: -0.02233868, y: 0, z: -0.023536019}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 13
+    - vertex: {x: -0.022962935, y: 0, z: -0.023068666}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 14
+    - vertex: {x: -0.02358038, y: 0, z: -0.022581283}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 15
+    - vertex: {x: -0.024167247, y: 0, z: -0.022092596}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 16
+    - vertex: {x: -0.02470101, y: 0, z: -0.02162141}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 17
+    - vertex: {x: -0.025161162, y: 0, z: -0.021185812}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 18
+    - vertex: {x: -0.025529984, y: 0, z: -0.020802535}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 19
+    - vertex: {x: -0.025793336, y: 0, z: -0.020486318}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 20
+    - vertex: {x: -0.025941096, y: 0, z: -0.020249337}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 21
+    - vertex: {x: -0.025967564, y: 0, z: -0.020100653}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 22
+    - vertex: {x: -0.025871728, y: 0, z: -0.020046033}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 23
+    - vertex: {x: -0.025657285, y: 0, z: -0.020087529}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 24
+    - vertex: {x: -0.02533247, y: 0, z: -0.020223565}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 25
+    - vertex: {x: -0.02490975, y: 0, z: -0.020448923}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 26
+    - vertex: {x: -0.024405386, y: 0, z: -0.020754918}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 27
+    - vertex: {x: -0.023838762, y: 0, z: -0.021129798}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 28
+    - vertex: {x: -0.023231667, y: 0, z: -0.021559183}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 29
+    - vertex: {x: -0.022607394, y: 0, z: -0.022026531}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 30
+    - vertex: {x: -0.021989938, y: 0, z: -0.022513926}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 31
+    - vertex: {x: -0.021403052, y: 0, z: -0.023002595}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 32
+    - vertex: {x: -0.029612374, y: 0, z: -0.018999927}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 33
+    - vertex: {x: -0.029325865, y: 0, z: -0.019459479}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 34
+    - vertex: {x: -0.029663704, y: 0, z: -0.018711612}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 35
+    - vertex: {x: -0.029477868, y: 0, z: -0.01860568}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 36
+    - vertex: {x: -0.029062029, y: 0, z: -0.018686138}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 37
+    - vertex: {x: -0.028432146, y: 0, z: -0.018949933}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 38
+    - vertex: {x: -0.027612444, y: 0, z: -0.01938691}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 39
+    - vertex: {x: -0.026634399, y: 0, z: -0.0199803}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 40
+    - vertex: {x: -0.02553564, y: 0, z: -0.020707265}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 41
+    - vertex: {x: -0.024358362, y: 0, z: -0.0215399}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 42
+    - vertex: {x: -0.023147784, y: 0, z: -0.022446178}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 43
+    - vertex: {x: -0.021950487, y: 0, z: -0.023391299}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 44
+    - vertex: {x: -0.02081243, y: 0, z: -0.024338916}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 45
+    - vertex: {x: -0.019777372, y: 0, z: -0.025252637}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 46
+    - vertex: {x: -0.018885061, y: 0, z: -0.026097346}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 47
+    - vertex: {x: -0.018169843, y: 0, z: -0.026840558}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 48
+    - vertex: {x: -0.017659158, y: 0, z: -0.027453735}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 49
+    - vertex: {x: -0.017372668, y: 0, z: -0.027913287}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 50
+    - vertex: {x: -0.017321333, y: 0, z: -0.028201582}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 51
+    - vertex: {x: -0.017507166, y: 0, z: -0.028307538}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 52
+    - vertex: {x: -0.017923012, y: 0, z: -0.028227063}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 53
+    - vertex: {x: -0.018552907, y: 0, z: -0.027963262}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 54
+    - vertex: {x: -0.019372597, y: 0, z: -0.027526285}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 55
+    - vertex: {x: -0.020350635, y: 0, z: -0.026932906}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 56
+    - vertex: {x: -0.021449417, y: 0, z: -0.026205923}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 57
+    - vertex: {x: -0.02262669, y: 0, z: -0.025373299}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 58
+    - vertex: {x: -0.02383726, y: 0, z: -0.024467032}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 59
+    - vertex: {x: -0.025034554, y: 0, z: -0.023521908}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 60
+    - vertex: {x: -0.026172627, y: 0, z: -0.022574272}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 61
+    - vertex: {x: -0.027207673, y: 0, z: -0.02166057}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 62
+    - vertex: {x: -0.028099969, y: 0, z: -0.02081588}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 63
+    - vertex: {x: -0.028815195, y: 0, z: -0.020072661}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 64
+    - vertex: {x: -0.011148848, y: 0, z: 0.011559047}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 65
+    - vertex: {x: -0.012180276, y: 0, z: 0.010062516}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 66
+    - vertex: {x: -0.0113858655, y: 0, z: 0.011208583}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 67
+    - vertex: {x: -0.010963801, y: 0, z: 0.0118622035}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 68
+    - vertex: {x: -0.010837816, y: 0, z: 0.0121064}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 69
+    - vertex: {x: -0.010775745, y: 0, z: 0.012282249}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 70
+    - vertex: {x: -0.010779977, y: 0, z: 0.01238298}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 71
+    - vertex: {x: -0.010850355, y: 0, z: 0.012404747}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 72
+    - vertex: {x: -0.010984156, y: 0, z: 0.0123467}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 73
+    - vertex: {x: -0.011176251, y: 0, z: 0.012211081}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 74
+    - vertex: {x: -0.011419244, y: 0, z: 0.01200309}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 75
+    - vertex: {x: -0.011703815, y: 0, z: 0.011730712}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 76
+    - vertex: {x: -0.012019016, y: 0, z: 0.01140444}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 77
+    - vertex: {x: -0.012352731, y: 0, z: 0.011036791}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 78
+    - vertex: {x: -0.012692142, y: 0, z: 0.010641895}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 79
+    - vertex: {x: -0.013024215, y: 0, z: 0.01023493}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 80
+    - vertex: {x: -0.013336178, y: 0, z: 0.009831555}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 81
+    - vertex: {x: -0.013616055, y: 0, z: 0.009447239}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 82
+    - vertex: {x: -0.013853062, y: 0, z: 0.0090967715}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 83
+    - vertex: {x: -0.014038105, y: 0, z: 0.008793607}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 84
+    - vertex: {x: -0.014164083, y: 0, z: 0.008549415}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 85
+    - vertex: {x: -0.0142261535, y: 0, z: 0.008373573}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 86
+    - vertex: {x: -0.014221922, y: 0, z: 0.008272812}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 87
+    - vertex: {x: -0.014151551, y: 0, z: 0.0082510635}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 88
+    - vertex: {x: -0.014017753, y: 0, z: 0.008309111}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 89
+    - vertex: {x: -0.013825666, y: 0, z: 0.008444741}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 90
+    - vertex: {x: -0.013582662, y: 0, z: 0.008652717}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 91
+    - vertex: {x: -0.013298087, y: 0, z: 0.00892511}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 92
+    - vertex: {x: -0.012982894, y: 0, z: 0.009251386}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 93
+    - vertex: {x: -0.012649171, y: 0, z: 0.009619027}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 94
+    - vertex: {x: -0.012309752, y: 0, z: 0.010013923}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 95
+    - vertex: {x: -0.011977684, y: 0, z: 0.010420881}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 96
+    - vertex: {x: -0.011665732, y: 0, z: 0.010824271}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 97
+    - vertex: {x: -0.016438885, y: 0, z: 0.0070284978}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 98
+    - vertex: {x: -0.01631853, y: 0, z: 0.007369481}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 99
+    - vertex: {x: -0.016430682, y: 0, z: 0.0068331286}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 100
+    - vertex: {x: -0.016294226, y: 0, z: 0.0067909285}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 101
+    - vertex: {x: -0.016034769, y: 0, z: 0.006903477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 102
+    - vertex: {x: -0.01566227, y: 0, z: 0.007166475}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 103
+    - vertex: {x: -0.015191061, y: 0, z: 0.0075698197}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 104
+    - vertex: {x: -0.014639247, y: 0, z: 0.008097984}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 105
+    - vertex: {x: -0.014028028, y: 0, z: 0.008730695}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 106
+    - vertex: {x: -0.01338087, y: 0, z: 0.009443626}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 107
+    - vertex: {x: -0.012722693, y: 0, z: 0.010209382}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 108
+    - vertex: {x: -0.012078758, y: 0, z: 0.01099854}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 109
+    - vertex: {x: -0.011473816, y: 0, z: 0.011780776}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 110
+    - vertex: {x: -0.010931119, y: 0, z: 0.012526017}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 111
+    - vertex: {x: -0.010471508, y: 0, z: 0.013205625}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 112
+    - vertex: {x: -0.010112658, y: 0, z: 0.013793498}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 113
+    - vertex: {x: -0.0098683685, y: 0, z: 0.014267031}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 114
+    - vertex: {x: -0.009748012, y: 0, z: 0.014608033}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 115
+    - vertex: {x: -0.009756222, y: 0, z: 0.014803369}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 116
+    - vertex: {x: -0.009892672, y: 0, z: 0.01484558}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 117
+    - vertex: {x: -0.010152154, y: 0, z: 0.014733024}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 118
+    - vertex: {x: -0.010524623, y: 0, z: 0.014470033}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 119
+    - vertex: {x: -0.010995857, y: 0, z: 0.014066696}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 120
+    - vertex: {x: -0.01154767, y: 0, z: 0.013538528}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 121
+    - vertex: {x: -0.012158882, y: 0, z: 0.012905821}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 122
+    - vertex: {x: -0.012806024, y: 0, z: 0.012192875}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 123
+    - vertex: {x: -0.013464205, y: 0, z: 0.011427127}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 124
+    - vertex: {x: -0.014108155, y: 0, z: 0.010637961}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 125
+    - vertex: {x: -0.014713086, y: 0, z: 0.009855747}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 126
+    - vertex: {x: -0.01525579, y: 0, z: 0.00911051}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 127
+    - vertex: {x: -0.015715402, y: 0, z: 0.008430898}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 128
+    - vertex: {x: -0.01607424, y: 0, z: 0.007843025}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 129
+    - vertex: {x: 0.011148848, y: 0, z: 0.011559047}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 0
+    - vertex: {x: 0.0113858655, y: 0, z: 0.011208583}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 1
+    - vertex: {x: 0.012180276, y: 0, z: 0.010062516}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 2
+    - vertex: {x: 0.010963801, y: 0, z: 0.0118622035}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 3
+    - vertex: {x: 0.010837816, y: 0, z: 0.0121064}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 4
+    - vertex: {x: 0.010775745, y: 0, z: 0.012282249}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 5
+    - vertex: {x: 0.010779977, y: 0, z: 0.01238298}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 6
+    - vertex: {x: 0.010850355, y: 0, z: 0.012404747}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 7
+    - vertex: {x: 0.010984156, y: 0, z: 0.0123467}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 8
+    - vertex: {x: 0.011176251, y: 0, z: 0.012211081}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 9
+    - vertex: {x: 0.011419244, y: 0, z: 0.01200309}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 10
+    - vertex: {x: 0.011703815, y: 0, z: 0.011730712}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 11
+    - vertex: {x: 0.012019016, y: 0, z: 0.01140444}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 12
+    - vertex: {x: 0.012352731, y: 0, z: 0.011036791}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 13
+    - vertex: {x: 0.012692142, y: 0, z: 0.010641895}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 14
+    - vertex: {x: 0.013024215, y: 0, z: 0.01023493}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 15
+    - vertex: {x: 0.013336178, y: 0, z: 0.009831555}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 16
+    - vertex: {x: 0.013616055, y: 0, z: 0.009447239}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 17
+    - vertex: {x: 0.013853062, y: 0, z: 0.0090967715}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 18
+    - vertex: {x: 0.014038105, y: 0, z: 0.008793607}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 19
+    - vertex: {x: 0.014164083, y: 0, z: 0.008549415}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 20
+    - vertex: {x: 0.0142261535, y: 0, z: 0.008373573}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 21
+    - vertex: {x: 0.014221922, y: 0, z: 0.008272812}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 22
+    - vertex: {x: 0.014151551, y: 0, z: 0.0082510635}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 23
+    - vertex: {x: 0.014017753, y: 0, z: 0.008309111}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 24
+    - vertex: {x: 0.013825666, y: 0, z: 0.008444741}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 25
+    - vertex: {x: 0.013582662, y: 0, z: 0.008652717}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 26
+    - vertex: {x: 0.013298087, y: 0, z: 0.00892511}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 27
+    - vertex: {x: 0.012982894, y: 0, z: 0.009251386}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 28
+    - vertex: {x: 0.012649171, y: 0, z: 0.009619027}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 29
+    - vertex: {x: 0.012309752, y: 0, z: 0.010013923}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 30
+    - vertex: {x: 0.011977684, y: 0, z: 0.010420881}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 31
+    - vertex: {x: 0.011665732, y: 0, z: 0.010824271}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 32
+    - vertex: {x: 0.016438885, y: 0, z: 0.0070284978}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 33
+    - vertex: {x: 0.01631853, y: 0, z: 0.007369481}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 34
+    - vertex: {x: 0.016430682, y: 0, z: 0.0068331286}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 35
+    - vertex: {x: 0.016294226, y: 0, z: 0.0067909285}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 36
+    - vertex: {x: 0.016034769, y: 0, z: 0.006903477}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 37
+    - vertex: {x: 0.01566227, y: 0, z: 0.007166475}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 38
+    - vertex: {x: 0.015191061, y: 0, z: 0.0075698197}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 39
+    - vertex: {x: 0.014639247, y: 0, z: 0.008097984}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 40
+    - vertex: {x: 0.014028028, y: 0, z: 0.008730695}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 41
+    - vertex: {x: 0.01338087, y: 0, z: 0.009443626}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 42
+    - vertex: {x: 0.012722693, y: 0, z: 0.010209382}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 43
+    - vertex: {x: 0.012078758, y: 0, z: 0.01099854}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 44
+    - vertex: {x: 0.011473816, y: 0, z: 0.011780776}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 45
+    - vertex: {x: 0.010931119, y: 0, z: 0.012526017}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 46
+    - vertex: {x: 0.010471508, y: 0, z: 0.013205625}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 47
+    - vertex: {x: 0.010112658, y: 0, z: 0.013793498}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 48
+    - vertex: {x: 0.0098683685, y: 0, z: 0.014267031}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 49
+    - vertex: {x: 0.009748012, y: 0, z: 0.014608033}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 50
+    - vertex: {x: 0.009756222, y: 0, z: 0.014803369}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 51
+    - vertex: {x: 0.009892672, y: 0, z: 0.01484558}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 52
+    - vertex: {x: 0.010152154, y: 0, z: 0.014733024}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 53
+    - vertex: {x: 0.010524623, y: 0, z: 0.014470033}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 54
+    - vertex: {x: 0.010995857, y: 0, z: 0.014066696}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 55
+    - vertex: {x: 0.01154767, y: 0, z: 0.013538528}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 56
+    - vertex: {x: 0.012158882, y: 0, z: 0.012905821}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 57
+    - vertex: {x: 0.012806024, y: 0, z: 0.012192875}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 58
+    - vertex: {x: 0.013464205, y: 0, z: 0.011427127}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 59
+    - vertex: {x: 0.014108155, y: 0, z: 0.010637961}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 60
+    - vertex: {x: 0.014713086, y: 0, z: 0.009855747}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 61
+    - vertex: {x: 0.01525579, y: 0, z: 0.00911051}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 62
+    - vertex: {x: 0.015715402, y: 0, z: 0.008430898}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 63
+    - vertex: {x: 0.01607424, y: 0, z: 0.007843025}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 64
+    - vertex: {x: 0.02040916, y: 0, z: -0.023909397}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 65
+    - vertex: {x: 0.022402324, y: 0, z: -0.022055607}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 66
+    - vertex: {x: 0.020869292, y: 0, z: -0.023473796}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 67
+    - vertex: {x: 0.020040326, y: 0, z: -0.024292663}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 68
+    - vertex: {x: 0.019776963, y: 0, z: -0.02460887}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 69
+    - vertex: {x: 0.019629225, y: 0, z: -0.024845857}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 70
+    - vertex: {x: 0.01960276, y: 0, z: -0.024994522}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 71
+    - vertex: {x: 0.019698575, y: 0, z: -0.025049161}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 72
+    - vertex: {x: 0.019913033, y: 0, z: -0.025007665}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 73
+    - vertex: {x: 0.020237848, y: 0, z: -0.024871636}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 74
+    - vertex: {x: 0.020660564, y: 0, z: -0.024646286}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 75
+    - vertex: {x: 0.021164939, y: 0, z: -0.024340287}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 76
+    - vertex: {x: 0.021731548, y: 0, z: -0.023965389}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 77
+    - vertex: {x: 0.02233868, y: 0, z: -0.023536019}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 78
+    - vertex: {x: 0.022962935, y: 0, z: -0.023068666}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 79
+    - vertex: {x: 0.02358038, y: 0, z: -0.022581283}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 80
+    - vertex: {x: 0.024167247, y: 0, z: -0.022092596}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 81
+    - vertex: {x: 0.02470101, y: 0, z: -0.02162141}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 82
+    - vertex: {x: 0.025161162, y: 0, z: -0.021185812}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 83
+    - vertex: {x: 0.025529984, y: 0, z: -0.020802535}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 84
+    - vertex: {x: 0.025793336, y: 0, z: -0.020486318}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 85
+    - vertex: {x: 0.025941096, y: 0, z: -0.020249337}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 86
+    - vertex: {x: 0.025967564, y: 0, z: -0.020100653}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 87
+    - vertex: {x: 0.025871728, y: 0, z: -0.020046033}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 88
+    - vertex: {x: 0.025657285, y: 0, z: -0.020087529}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 89
+    - vertex: {x: 0.02533247, y: 0, z: -0.020223565}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 90
+    - vertex: {x: 0.02490975, y: 0, z: -0.020448923}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 91
+    - vertex: {x: 0.024405386, y: 0, z: -0.020754918}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 92
+    - vertex: {x: 0.023838762, y: 0, z: -0.021129798}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 93
+    - vertex: {x: 0.023231667, y: 0, z: -0.021559183}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 94
+    - vertex: {x: 0.022607394, y: 0, z: -0.022026531}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 95
+    - vertex: {x: 0.021989938, y: 0, z: -0.022513926}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 96
+    - vertex: {x: 0.021403052, y: 0, z: -0.023002595}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 97
+    - vertex: {x: 0.029612374, y: 0, z: -0.018999927}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 98
+    - vertex: {x: 0.029325865, y: 0, z: -0.019459479}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 99
+    - vertex: {x: 0.029663704, y: 0, z: -0.018711612}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 100
+    - vertex: {x: 0.029477868, y: 0, z: -0.01860568}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 101
+    - vertex: {x: 0.029062029, y: 0, z: -0.018686138}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 102
+    - vertex: {x: 0.028432146, y: 0, z: -0.018949933}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 103
+    - vertex: {x: 0.027612444, y: 0, z: -0.01938691}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 104
+    - vertex: {x: 0.026634399, y: 0, z: -0.0199803}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 105
+    - vertex: {x: 0.02553564, y: 0, z: -0.020707265}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 106
+    - vertex: {x: 0.024358362, y: 0, z: -0.0215399}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 107
+    - vertex: {x: 0.023147784, y: 0, z: -0.022446178}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 108
+    - vertex: {x: 0.021950487, y: 0, z: -0.023391299}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 109
+    - vertex: {x: 0.02081243, y: 0, z: -0.024338916}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 110
+    - vertex: {x: 0.019777372, y: 0, z: -0.025252637}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 111
+    - vertex: {x: 0.018885061, y: 0, z: -0.026097346}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 112
+    - vertex: {x: 0.018169843, y: 0, z: -0.026840558}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 113
+    - vertex: {x: 0.017659158, y: 0, z: -0.027453735}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 114
+    - vertex: {x: 0.017372668, y: 0, z: -0.027913287}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 115
+    - vertex: {x: 0.017321333, y: 0, z: -0.028201582}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 116
+    - vertex: {x: 0.017507166, y: 0, z: -0.028307538}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 117
+    - vertex: {x: 0.017923012, y: 0, z: -0.028227063}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 118
+    - vertex: {x: 0.018552907, y: 0, z: -0.027963262}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 119
+    - vertex: {x: 0.019372597, y: 0, z: -0.027526285}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 120
+    - vertex: {x: 0.020350635, y: 0, z: -0.026932906}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 121
+    - vertex: {x: 0.021449417, y: 0, z: -0.026205923}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 122
+    - vertex: {x: 0.02262669, y: 0, z: -0.025373299}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 123
+    - vertex: {x: 0.02383726, y: 0, z: -0.024467032}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 124
+    - vertex: {x: 0.025034554, y: 0, z: -0.023521908}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 125
+    - vertex: {x: 0.026172627, y: 0, z: -0.022574272}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 126
+    - vertex: {x: 0.027207673, y: 0, z: -0.02166057}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 127
+    - vertex: {x: 0.028099969, y: 0, z: -0.02081588}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 128
+    - vertex: {x: 0.028815195, y: 0, z: -0.020072661}
+      normal: {x: 0, y: 0, z: 0}
+      tangent: {x: 0, y: 0, z: 0}
+      index: 129
+    shapes:
+    - firstVertex: 0
+      vertexCount: 130
+      hasNormals: 0
+      hasTangents: 0
+    - firstVertex: 130
+      vertexCount: 130
+      hasNormals: 0
+      hasTangents: 0
+    - firstVertex: 260
+      vertexCount: 130
+      hasNormals: 0
+      hasTangents: 0
+    - firstVertex: 390
+      vertexCount: 130
+      hasNormals: 0
+      hasTangents: 0
+    channels:
+    - name: LookUp
+      nameHash: 1647612049
+      frameIndex: 0
+      frameCount: 1
+    - name: LookDown
+      nameHash: 3961990925
+      frameIndex: 1
+      frameCount: 1
+    - name: LookLeft
+      nameHash: 2327795806
+      frameIndex: 2
+      frameCount: 1
+    - name: LookRight
+      nameHash: 2072000562
+      frameIndex: 3
+      frameCount: 1
+    fullWeights:
+    - 100
+    - 100
+    - 100
+    - 100
+  m_BindPose:
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -2.1732127e-15
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.87386477
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.052990615
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.1126678
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.8738648
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.05299431
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.11800616
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.5091673
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: -0.02173984
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.112818524
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.16745615
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.06730254
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.11454739
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.06823993
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.038804725
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.11541234
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.33831167
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.022781402
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.1126678
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.8738648
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.05299437
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.1126678
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.8738646
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.05298692
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.118006505
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.50916684
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: -0.021746963
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.112819076
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.16745579
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.067295745
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.114547744
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.06823832
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.038801685
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.11541278
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.3383113
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.022774428
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.112667784
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.8738646
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.05298692
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 1.6851983e-13
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.0379066
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.04842007
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -6.761742e-11
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.2019485
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.02331698
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -1.4110176e-10
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3659904
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.042081952
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -2.8195973e-10
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.4164649
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.02574706
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.079744264
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.5963796
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.025545835
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.10938074
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.6352657
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.07525468
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.13901709
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.6741515
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.12496328
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.079744264
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.5963796
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.025545955
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.10938071
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.635266
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.07525444
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.13901712
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.6741515
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.124963045
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -9.06248e-11
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.6543046
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.022295237
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 3.3308068e-11
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.6900128
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: -0.036028028
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -2.4624786e-10
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.6206295
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: -0.120584965
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.027378837
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.2935183
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.0013724566
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.10951545
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3052762
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.053169727
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.3190935
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3033979
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.059342265
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.52867156
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.301519
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.04737711
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.5667334
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3054569
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: -0.005096674
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.6214311
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.292821
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: -0.03395021
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.66416806
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.2797493
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: -0.05168307
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.6427619
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.2969815
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.10054791
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.6793147
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.2969815
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.10565686
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.7082019
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.2969815
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.1081841
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.6551953
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3060541
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.060332656
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.7033224
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3060541
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.056122184
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.7346638
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3060538
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.05338013
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.65645814
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3060541
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.008596897
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.6981686
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3060542
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.001485467
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.72710544
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3060541
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: -0.0034480095
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.4238825
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3024584
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.053359747
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.10951546
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.305276
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.053169727
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.027378835
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.2935184
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.0013724566
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.10951535
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3052764
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.053169727
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.31909332
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.303398
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.059342384
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.5286712
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3015195
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.047377348
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.5667332
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3054572
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: -0.0050964355
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.62143075
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.2928213
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: -0.033949733
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.66416764
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.2797495
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: -0.05168271
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.64276135
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.2969819
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.10054815
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.679314
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.2969819
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.1056571
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.7082013
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.2969819
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.10818446
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.6551949
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3060546
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.060333014
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.7033221
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3060545
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.056122422
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.7346637
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3060545
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.05338049
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.6564578
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3060546
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.008597255
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.698168
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3060545
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.0014858246
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.7271049
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3060545
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: -0.003447771
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.42388234
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3024589
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.053359866
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.10951533
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -1.3052762
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.053169727
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: -0.00000013737713
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.9524913
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.1394487
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.0000028760996
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.9391483
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.31984472
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.0000058895794
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.87223244
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.4879011
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.000008903059
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.8126544
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.6586969
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: -0
+    e03: 0.000011916536
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.81508476
+    e20: 0
+    e21: -0
+    e22: 1
+    e23: 0.8395691
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB:
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: -0.099671185, y: 0.023785591, z: 0.047086388}
+    m_Max: {x: 0.099671185, y: 0.13404179, z: 0.12439549}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  - m_Min: {x: Infinity, y: Infinity, z: Infinity}
+    m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 0
+  m_IndexFormat: 1
+  m_IndexBuffer: 0000000001000000020000000300000000000000020000000400000003000000020000000500000004000000020000000600000005000000020000000700000006000000020000000800000007000000020000000900000008000000020000000a00000009000000020000000b0000000a000000020000000c0000000b000000020000000d0000000c000000020000000e0000000d000000020000000f0000000e00000002000000100000000f000000020000001100000010000000020000001200000011000000020000001300000012000000020000001400000013000000020000001500000014000000020000001600000015000000020000001700000016000000020000001800000017000000020000001900000018000000020000001a00000019000000020000001b0000001a000000020000001c0000001b000000020000001d0000001c000000020000001e0000001d000000020000001f0000001e00000002000000200000001f00000002000000010000002000000002000000140000001500000021000000140000002100000022000000150000001600000023000000150000002300000021000000160000001700000024000000160000002400000023000000170000001800000025000000170000002500000024000000180000001900000026000000180000002600000025000000190000001a000000270000001900000027000000260000001a0000001b000000280000001a00000028000000270000001b0000001c000000290000001b00000029000000280000001c0000001d0000002a0000001c0000002a000000290000001d0000001e0000002b0000001d0000002b0000002a0000001e0000001f0000002c0000001e0000002c0000002b0000001f000000200000002d0000001f0000002d0000002c00000020000000010000002e000000200000002e0000002d000000010000002f0000002e00000001000000000000002f00000000000000300000002f000000000000000300000030000000030000003100000030000000030000000400000031000000040000003200000031000000040000000500000032000000050000003300000032000000050000000600000033000000060000003400000033000000060000000700000034000000070000003500000034000000070000000800000035000000080000003600000035000000080000000900000036000000090000003700000036000000090000000a000000370000000a00000038000000370000000a0000000b000000380000000b00000039000000380000000b0000000c000000390000000c0000003a000000390000000c0000000d0000003a0000000d0000003b0000003a0000000d0000000e0000003b0000000e0000003c0000003b0000000e0000000f0000003c0000000f0000003d0000003c0000000f000000100000003d000000100000003e0000003d00000010000000110000003e000000110000003f0000003e00000011000000120000003f00000012000000400000003f0000001200000013000000400000001300000022000000400000001300000014000000220000004100000042000000430000004400000042000000410000004500000042000000440000004600000042000000450000004700000042000000460000004800000042000000470000004900000042000000480000004a00000042000000490000004b000000420000004a0000004c000000420000004b0000004d000000420000004c0000004e000000420000004d0000004f000000420000004e00000050000000420000004f0000005100000042000000500000005200000042000000510000005300000042000000520000005400000042000000530000005500000042000000540000005600000042000000550000005700000042000000560000005800000042000000570000005900000042000000580000005a00000042000000590000005b000000420000005a0000005c000000420000005b0000005d000000420000005c0000005e000000420000005d0000005f000000420000005e00000060000000420000005f00000061000000420000006000000043000000420000006100000055000000620000005600000055000000630000006200000056000000620000006400000056000000640000005700000057000000640000006500000057000000650000005800000058000000650000006600000058000000660000005900000059000000660000006700000059000000670000005a0000005a00000067000000680000005a000000680000005b0000005b00000068000000690000005b000000690000005c0000005c000000690000006a0000005c0000006a0000005d0000005d0000006a0000006b0000005d0000006b0000005e0000005e0000006b0000006c0000005e0000006c0000005f0000005f0000006c0000006d0000005f0000006d00000060000000600000006d0000006e000000600000006e00000061000000610000006e0000006f000000610000006f00000043000000430000006f0000007000000043000000700000004100000041000000700000007100000041000000710000004400000044000000710000007200000044000000720000004500000045000000720000007300000045000000730000004600000046000000730000007400000046000000740000004700000047000000740000007500000047000000750000004800000048000000750000007600000048000000760000004900000049000000760000007700000049000000770000004a0000004a00000077000000780000004a000000780000004b0000004b00000078000000790000004b000000790000004c0000004c000000790000007a0000004c0000007a0000004d0000004d0000007a0000007b0000004d0000007b0000004e0000004e0000007b0000007c0000004e0000007c0000004f0000004f0000007c0000007d0000004f0000007d00000050000000500000007d0000007e000000500000007e00000051000000510000007e0000007f000000510000007f00000052000000520000007f00000080000000520000008000000053000000530000008000000081000000530000008100000054000000540000008100000063000000540000006300000055000000
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 130
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 1
+      offset: 0
+      format: 0
+      dimension: 4
+    - stream: 1
+      offset: 16
+      format: 0
+      dimension: 2
+    - stream: 1
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 2
+      offset: 0
+      format: 0
+      dimension: 4
+    - stream: 2
+      offset: 16
+      format: 8
+      dimension: 4
+    m_DataSize: 12480
+    _typelessdata: 611783bd3cdabe3fe429723d544815bfc9252a3d2fb24f3f15f44fbfd1ad2abddfeb14bf000080bfc8767ebd7c9fbe3ff96d783da1761cbf2bbe8b3dd3dd493fd8994abfd99d1ebdc12c1cbf000080bf564365bd9555c03fbbaf863dcf4432bf8ec004bed6b4343f655a35bf902e09bd3e7b34bf000080bf377386bd2a23bf3f04366d3dc6070fbf10a1093c3f4e543f0d2354bf119a3fbd9fcb0ebf000080bfe02d89bd7877bf3f07c3693d16f209bf9906f5bcd384573f151c57bfbdb254bdf4270abf000080bf802c8bbdeed3bf3fe5f2673d1a3c06bf9b4b93bd7e34593fb4d858bf35f26bbd624307bf000080bf745b8cbdf934c03f6fd7673dd00804bf619eedbda04d593fda5b59bf593e81bdc34606bf000080bf21af8cbdde96c03fb871693d986c03bf515e24be0ed0573ff0ac58bfc82c8abd013d07bf000080bf49248cbde0f5c03ffcb16c3da06e04bfe08f50bef4c9543f6ed156bf50628fbd37160abf000080bf45c08abd554ec13f3778713d420507bf19ba79be6258503f36cc53bf114790bd82a90ebf000080bfc19088bdd29cc13f7395773d26170bbfdf1f8fbe76a74a3fa2b64fbfe4bd89bd90a414bf000080bf3aab85bd59dec13f91cd7e3da47b10bffc5e9ebe3bef433f628c4abff2307dbd62c11bbf000080bf362c82bd6110c23fc36c833de6fd16bf6804aabe95713c3fc05244bfd74f62bda1af23bf000080bf326c7cbd0131c23f15b5873d675c1ebf739ab1be347a343f036c3dbff3b536bd05d42bbf000080bfbedf73bdfb3ec23f96158c3d525126bfafdab4be4c542c3f5ed035bfe47c0abd660334bf000080bf12076bbdbd39c23f4463903da98d2ebf31a3b3bee050243f3eaf2dbf1856cabc44f63bbf000080bf463962bd7d21c23fbd73943dd8bd36bf5cffadbec6c11c3fc8ab25bf9b6166bc912143bf000080bffdcc59bd34f7c13f0b1f983ded943ebf3a28a4befaec153f55de1dbf9942c5bbaa8549bf000080bf041552bd74bcc13f18419b3d70c445bfa57b96bed117103feca616bf222dccba50fa4ebf000080bf575d4bbd8673c13f05bb9d3d09054cbf598385beae7b0b3fff9010bf783fc23af84553bf000080bffae745bd321fc13f82749f3d351951bffccc63be0f46083fd5d90bbf4b66c83a7f6c56bf000080bfc0ea41bdc1c2c03f935ca03db8cf54bf63c838bee695063f41c908bf2d6896ba556458bf000080bfc78c3fbdb361c03f516aa03d430357bf5e9e0bbe177d063f0a9807bfa717b0bb072359bf000080bf7fe53ebdceffbf3f2a9d9f3dc09e57bfec21bcbd3cfb073fcb5708bfa4e22abcbba758bf000080bf2bfb3fbdcda0bf3f0cfd9d3dc19c56bfef6d47bd19010b3fd4fb0abfe23383bcbcf256bf000080bf37c342bd5a48bf3ff0999b3d760654bfce3c0bbc02720f3fa3600fbf8f01b2bc630254bf000080bf422247bddff9be3f508b983db3f44fbf5b87de3c3523153fed4915bf977fd3bccbdb4fbf000080bf49ed4cbd57b8be3f3fef943d6d904abfa838693d4cdb1b3ff95f1cbfbc21e8bc2f8f4abf000080bf49eb53bd4c86be3f47e9903d820e44bff02fa33d6658233fac4724bf211e01bdb72b44bf000080bf89d75bbdac65be3ffaa08c3d3eaf3cbf738ac13daa502b3ffa952cbf5aa707bd09e33cbf000080bffe6364bdb157be3f7140883d67ba34bfd28ece3d5476333f51e634bfec390abdcbee34bf000080bfb13c6dbdf35cbe3fc8f2833d897e2cbfd1a7c93d3b793b3f23df3cbf89ec0ebd60942cbf000080bf740a76bd2d75be3f96c47f3dab4d24bf8c1fb33d3c09433f0a2e44bf947b13bd6f3524bf000080bf4df626bdfe1fc13f3ba3bb3d4dce5cbfdf3246be1461ef3e1903f5be132c3f3cddc360bf000080bf9eb22ebd42d3c13f3ae1b93d870a58bf136a7dbe97b5f33e7f0dfdbee6115e3c0e855ebf000080bf3a5f22bdcf63c03fe0bdbb3d13a25fbfca3a0cbe0b20ef3e96daf1bea315f23b65a161bf000080bfc91a21bdf3a5bf3f1030ba3de66960bfe182a3bd71f4f23ef3c8f3be4d29be3a311e61bf000080bf413523bdbaedbe3f2509b73d131e5fbf462bc8bc04b9fa3e32bdfabea324a6bb60325fbf000080bf049a28bd3742be3f1568b23d10cc5bbf9a6bde3c8e0f033f632b03bf0ad93dbc77d25bbf000080bfff1331bd01aabd3f757aac3d399356bf7e5d953d825d0a3f67ff0abf2be894bc8aed56bf000080bfd94f3cbdf12abd3f917aa53da0a74fbf1da0e33d4ffd123f026d14bfd087c5bc317d50bf000080bff1de49bde5c9bc3f4bad9d3d7e4d47bfa7b20f3eda991c3f82e71ebfa34ae6bc4d9548bf000080bf083c59bda48abc3f5c5f953d44d73dbfac2f233e5bd4263f31e129bf16d300bdc3573fbf000080bfd4cf69bd8e6fbc3f7ce28c3dd5a033bf32862b3ea349313f0ec434bf16ec09bd411135bf000080bf63f77abdb779bc3f2f8a843d650f29bf0b66283ec6913b3f180e3fbf696f12bdc9252abf000080bfeb0486bdb6a8bc3f0a51793de98b1ebf60ec193eeb46453f125248bff5f81abd6f1a1fbf000080bfa22f8ebdbffabc3f1d166b3dde7b14bf28a8003e300b4e3fe44850bf432926bd4a7a14bf000080bf81ab95bdaa6cbd3f88ef5e3dd8430bbfc024bb3d1087553fbbc756bff78f34bd7cd80abf000080bfe02e9cbd18fabd3fe854553d823d03bfcf10483da7715b3f0dc25bbff44247bdedb702bf000080bfb079a1bd979dbe3fada44e3d9070f9be189cacb970905f3fcb3b5fbfc2f05dbdcc14f9be000080bfdc57a5bddf50bf3fa4204b3db2e9efbe9d365ebd9eba613f4e4261bf595376bdcd4ef1be000080bf59a3a7bd0f0dc03f69eb4a3d7341eabe3908e3bd93db613f63e461bf01f386bdcc87eebe000080bf9c45a8bde9cac03f00074e3d39b1e8be99fd2bbe96f15f3f232961bfbafd90bd9eeaf0be000080bf5e38a7bd2283c13fe654543d0c49ebbe57b964be710f5c3f12135fbf3f2b97bdfd53f8be000080bff785a4bda42ec23f00975d3d03edf1bec3c68cbeb95b563fd29e5bbf81d397bd072a02bf000080bffe48a0bddcc6c23f3e72693dfe5dfcbedc36a4be4c0e4f3f85ba56bf4d4f93bd50290abf000080bf11ab9abdef45c33f0b72773d541b05bf3bc8b7be2f6e463fc46f50bf517587bdf9a813bf000080bf7ce393bdf4a6c33f4b86833d22760dbff2bac6bebad03c3fbbc848bfb35a6abdfc221ebf000080bff4348cbd37e6c33f3cd48b3d85eb16bf6f78d0bee396323f44d73fbf7c0a3fbd591629bf000080bf11eb83bd4f01c43f1651943d972121bf29a4d4be0322283f52f335bf2d280bbd8ddf33bf000080bf94ae76bd22f7c33f68a99c3d94b32bbf2d14d3be20d91d3fa66b2bbf21f9abbce80e3ebf000080bf1b9c65bd25c8c33f0c8ba43d713636bfaed7cbbed624143fb7af20bf9f1118bc374647bf000080bfc04655bd2076c33f83a8ab3d454640bf3d35bfbeed600b3f565516bfb128843aa9354fbf000080bf044f46bd3404c33fcfbbb13dd37f49bf7aa8adbe9fe3033f94d80cbf0d4c0a3cccc255bf000080bf444839bdc476c23f1d89b63dc78551bff8e097becff2fb3e2ec104bfdd684d3c74dd5abf000080bf6117833d3cdabe3fe429723d4348153fb1252a3d3bb24f3f21f44f3f3eae2abdcdeb14bf0000803f5643653d9555c03fbbaf863dcf44323f8ec004bed6b4343f655a353f8e2e09bd3e7b34bf0000803fc8767e3d7c9fbe3ff96d783da0761c3f1cbe8b3dd3dd493fd9994a3fc89e1ebdbf2c1cbf0000803f3773863d2a23bf3f04366d3dc8070f3f43a1093c3e4e543f0c23543f65993fbda1cb0ebf0000803fe02d893d7877bf3f07c3693d28f2093f8706f5bcc784573f091c573fb1b254bd06280abf0000803f802c8b3deed3bf3fe5f2673d183c063fa84b93bd7f34593fb4d8583f66f26bbd604307bf0000803f745b8c3df934c03f6fd7673dba08043f7c9eedbdac4d593fe65b593f933e81bdae4606bf0000803f21af8c3dde96c03fb871693d706c033f605e24be25d0573f06ad583f392d8abddb3c07bf0000803f49248c3de0f5c03ffcb16c3d9f6e043fd78f50bef5c9543f6fd1563f41628fbd35160abf0000803f45c08a3d554ec13f3778713d5405073f02ba79be5758503f2dcc533f974690bd91a90ebf0000803fc190883dd29cc13f7395773d32170b3fda1f8fbe6ea74a3f9ab64f3fc0bd89bd9ba414bf0000803f3aab853d59dec13f91cd7e3db27b103ff75e9ebe32ef433f5a8c4a3f55307dbd6ec11bbf0000803f362c823d6110c23fc36c833de2fd163f6a04aabe97713c3fbd52443f015162bda1af23bf0000803f326c7c3d0131c23f15b5873d615c1e3f7a9ab1be387a343f016c3d3fa7b736bd06d42bbf0000803fbedf733dfb3ec23f96158c3d5351263fb1dab4be4a542c3f58d0353fd47d0abd6b0334bf0000803f12076b3dbd39c23f4463903db78d2e3f23a3b3bed550243f35af2d3fe453cabc4cf63bbf0000803f4639623d7d21c23fbd73943df1bd363f41ffadbeb1c11c3fb6ab253fbc5a66bca12143bf0000803ffdcc593d34f7c13f0b1f983d03953e3f1e28a4bee6ec153f42de1d3f2539c5bbb98549bf0000803f0415523d74bcc13f18419b3d68c4453fb17b96bed917103ff7a6163f311fccba48fa4ebf0000803f575d4b3d8673c13f05bb9d3dff044c3f6c8385beb87b0b3f0991103fc929c23af14553bf0000803ffae7453d321fc13f82749f3d3919513fedcc63be0b46083fcfd90b3f4458c83a836c56bf0000803fc0ea413dc1c2c03f935ca03dc1cf543f49c838beda95063f35c9083ff35c96ba5c6458bf0000803fc78c3f3db361c03f516aa03d5403573f409e0bbefd7c063ff097073f0b13b0bb172359bf0000803f7fe53e3dceffbf3f2a9d9f3dc79e573fec21bcbd31fb073fc157083f90e12abcc1a758bf0000803f2bfb3f3dcda0bf3f0cfd9d3dbd9c563f066e47bd21010b3fdcfb0a3f693283bcb7f256bf0000803f37c3423d5a48bf3ff0999b3d6006543fd63c0bbc24720f3fc5600f3ff500b2bc4c0254bf0000803f4222473ddff9be3f508b983da4f44f3f8987de3c4a23153f024a153f3d7fd3bcbcdb4fbf0000803f49ed4c3d57b8be3f3fef943d6d904a3fa838693d4cdb1b3ff95f1c3fec22e8bc2e8f4abf0000803f49eb533d4c86be3f47e9903d820e443fed2fa33d6658233fac47243f9d1d01bdb82b44bf0000803f89d75b3dac65be3ffaa08c3d40af3c3f6b8ac13da8502b3ff7952c3f2aa507bd0ee33cbf0000803ffe63643db157be3f7140883d66ba343fd88ece3d5476333f52e6343f153b0abdc9ee34bf0000803fb13c6d3df35cbe3fc8f2833d877e2c3fe5a7c93d3d793b3f26df3c3f54ed0ebd5c942cbf0000803f740a763d2d75be3f96c47f3daa4d243f971fb33d3c09433f0a2e443fb77b13bd6e3524bf0000803f4df6263dfe1fc13f3ba3bb3d5dce5c3faf3246bee460ef3ee902f53ed32e3f3ceac360bf0000803f9eb22e3d42d3c13f3ae1b93d8e0a583ffa697dbe85b5f33e6a0dfd3e28115e3c15855ebf0000803f3a5f223dcf63c03fe0bdbb3d32a25f3f8e3a0cbea21fef3e2cdaf13e181cf23b82a161bf0000803fc91a213df3a5bf3f1030ba3df369603fdb82a3bd3ef4f23ec0c8f33e0923be3a3f1e61bf0000803f4135233dbaedbe3f2509b73d0c1e5f3fa72bc8bc1db9fa3e4bbdfa3ef421a6bb59325fbf0000803f049a283d3742be3f1568b23de9cb5b3f916bde3ccd0f033fa32b033f28da3dbc51d25bbf0000803fff13313d01aabd3f757aac3d1f93563f935d953daa5d0a3f8fff0a3f71e994bc70ed56bf0000803fd94f3c3df12abd3f917aa53da0a74f3f1ea0e33d4ffd123f016d143fea85c5bc327d50bf0000803ff1de493de5c9bc3f4bad9d3d7e4d473fa4b20f3eda991c3f83e71e3fb14be6bc4c9548bf0000803f083c593da48abc3f5c5f953d45d73d3fa22f233e5ad4263f31e1293f77d300bdc3573fbf0000803fd4cf693d8e6fbc3f7ce28c3dd5a0333f36862b3ea449313f10c4343fb6ec09bd3f1135bf0000803f63f77a3db779bc3f2f8a843d630f293f2166283ec8913b3f1a0e3f3f656f12bdc7252abf0000803feb04863db6a8bc3f0a51793de68b1e3f6bec193eed46453f1452483f6bf81abd6d1a1fbf0000803fa22f8e3dbffabc3f1d166b3dde7b143f19a8003e310b4e3fe548503f1f2a26bd477a14bf0000803f81ab953daa6cbd3f88ef5e3db7430b3fae24bb3d2587553fd0c7563f359034bd5bd80abf0000803fe02e9c3d18fabd3fe854553d833d033fe610483da5715b3f0dc25b3f274247bdefb702bf0000803fb079a13d979dbe3fada44e3dda70f93eb594acb95b905f3fb63b5f3f17f05dbd1715f9be0000803fdc57a53ddf50bf3fa4204b3dace9ef3ec8365ebda0ba613f5042613f605376bdc74ef1be0000803f59a3a73d0f0dc03f69eb4a3d1e41ea3e6908e3bda8db613f78e4613f2cf386bd7987eebe0000803f9c45a83de9cac03f00074e3da1b0e83eb3fd2bbebdf15f3f4929613f4afe90bd0aeaf0be0000803f5e38a73d2283c13fe654543d0d49eb3e47b964be720f5c3f10135f3fa62b97bd0054f8be0000803ff785a43da42ec23f00975d3d52edf13eb0c68cbea65b563fbd9e5b3f33d397bd2b2a02bf0000803ffe48a03ddcc6c23f3e72693d285efc3ed636a4be410e4f3f7bba563ff54e93bd62290abf0000803f11ab9a3def45c33f0b72773d6e1b053f34c8b7be1f6e463fb96f503f697487bd0ba913bf0000803f7ce3933df4a6c33f4b86833d1a760d3ff5bac6bebfd03c3fc1c8483fcc5a6abdf5221ebf0000803ff4348c3d37e6c33f3cd48b3d76eb163f7a78d0beec96323f4fd73f3fb10a3fbd4c1629bf0000803f11eb833d4f01c43f1651943d9b21213f2ea4d4befe21283f53f3353f1c270bbd8ddf33bf0000803f94ae763d22f7c33f68a99c3daeb32b3f1614d3be0cd91d3f8e6b2b3f65f8abbcfe0e3ebf0000803f1b9c653d25c8c33f0c8ba43da236363f76d7cbbeac24143f8baf203f180b18bc5c4647bf0000803fc046553d2076c33f83a8ab3d7146403f0535bfbec4600b3f2955163f9a51843ac9354fbf0000803f044f463d3404c33fcfbbb13dc47f493f8fa8adbeaee3033fa1d80c3f86470a3cc3c255bf0000803f4448393dc476c23f1d89b63db585513f1ae197bef4f2fb3e40c1043f3d644d3c6add5abf0000803f0000803f0000803f0000803f0000803f62414e3f90f0413e00000000000000000000803f0000803f0000803f0000803f059c483f00e72f3e00000000000000000000803f0000803f0000803f0000803f2179343fb0af953e00000000000000000000803f0000803f0000803f0000803f4be5523f9018583e00000000000000000000803f0000803f0000803f0000803f345e563f2070713e00000000000000000000803f0000803f0000803f0000803fad89583fda80863e00000000000000000000803f0000803f0000803f0000803f2a52593fb8dd943e00000000000000000000803f0000803f0000803f0000803fc6af583fec41a33e00000000000000000000803f0000803f0000803f0000803f23af563f4624b13e00000000000000000000803f0000803f0000803f0000803fc857533f66f5bd3e00000000000000000000803f0000803f0000803f0000803fc7d04e3f1038c93e00000000000000000000803f0000803f0000803f0000803fb04a493f108ad23e00000000000000000000803f0000803f0000803f0000803fe9f3423f767ad93e00000000000000000000803f0000803f0000803f0000803f0b0f3c3f64cfdd3e00000000000000000000803f0000803f0000803f0000803f7ce0343f4c6bdf3e00000000000000000000803f0000803f0000803f0000803fb2ad2d3f6624de3e00000000000000000000803f0000803f0000803f0000803f73be263fc214da3e00000000000000000000803f0000803f0000803f0000803f9e53203f606fd33e00000000000000000000803f0000803f0000803f0000803fceb21a3f7c5eca3e00000000000000000000803f0000803f0000803f0000803fd010163fc448bf3e00000000000000000000803f0000803f0000803f0000803f1e95123f5c9fb23e00000000000000000000803f0000803f0000803f0000803f4467103fc8d8a43e00000000000000000000803f0000803f0000803f0000803f7e9c0f3f187b963e00000000000000000000803f0000803f0000803f0000803f6c3c103f4415883e00000000000000000000803f0000803f0000803f0000803f9640123f8c67743e00000000000000000000803f0000803f0000803f0000803f359a153f44cb5a3e00000000000000000000803f0000803f0000803f0000803fea221a3ff84b443e00000000000000000000803f0000803f0000803f0000803ff1a91f3fd8b0313e00000000000000000000803f0000803f0000803f0000803f80fe253f68c1233e00000000000000000000803f0000803f0000803f0000803f7ae32c3f6c1d1b3e00000000000000000000803f0000803f0000803f0000803fa111343f38ec173e00000000000000000000803f0000803f0000803f0000803fea433b3f547d1a3e00000000000000000000803f0000803f0000803f0000803f7d34423f3085223e00000000000000000000803f0000803f0000803f0000803fc93fd93e86cbb33e00000000000000000000803f0000803f0000803f0000803f5de1e13e2446cf3e00000000000000000000803f0000803f0000803f0000803fe626d63e942d973e00000000000000000000803f0000803f0000803f0000803fc8b1d83edc0d753e00000000000000000000803f0000803f0000803f0000803f66c4e03eb8e33d3e00000000000000000000803f0000803f0000803f0000803f3c0aee3ed8e40a3e00000000000000000000803f0000803f0000803f0000803fb406003fe804bc3d00000000000000000000803f0000803f0000803f0000803f860e0b3f702a643d00000000000000000000803f0000803f0000803f0000803f90aa173f2058eb3c00000000000000000000803f0000803f0000803f0000803f9d60253fc0db413c00000000000000000000803f0000803f0000803f0000803fa0ab333f005abc3b00000000000000000000803f0000803f0000803f0000803f49fe413f80fb2d3c00000000000000000000803f0000803f0000803f0000803f17cb4f3f00d6d73c00000000000000000000803f0000803f0000803f0000803f4c8c5c3ff0f7553d00000000000000000000803f0000803f0000803f0000803f8ac1673fb0f0b23d00000000000000000000803f0000803f0000803f0000803fc400713ffc72053e00000000000000000000803f0000803f0000803f0000803f3cef773f80d3373e00000000000000000000803f0000803f0000803f0000803f3e477c3f80ab6e3e00000000000000000000803f0000803f0000803f0000803f5cdd7d3f44f1933e00000000000000000000803f0000803f0000803f0000803fc0a07c3faca2b03e00000000000000000000803f0000803f0000803f0000803fd79a783fd446cc3e00000000000000000000803f0000803f0000803f0000803fdef9713f0cd1e53e00000000000000000000803f0000803f0000803f0000803fd2f9683f504bfc3e00000000000000000000803f0000803f0000803f0000803f9cf35d3fa566073f00000000000000000000803f0000803f0000803f0000803f1458513f83550e3f00000000000000000000803f0000803f0000803f0000803f909d433f37ad123f00000000000000000000803f0000803f0000803f0000803f2d4e353fcf3e143f00000000000000000000803f0000803f0000803f0000803fe9f7263fd000133f00000000000000000000803f0000803f0000803f0000803f1d23193f34fb0e3f00000000000000000000803f0000803f0000803f0000803f7b5d0c3fa854083f00000000000000000000803f0000803f0000803f0000803f6d21013f5ca5fe3e00000000000000000000803f0000803f0000803f0000803fc8b9ef3e6c90e83e00000000000000000000803f0000803f0000803f0000803f5632cc3efeb81a3f00000000000000000000803f0000803f0000803f0000803fd6a1983eb014353f00000000000000000000803f0000803f0000803f0000803f98e7c03e9936163f00000000000000000000803f0000803f0000803f0000803f2c7ad53efd42203f00000000000000000000803f0000803f0000803f0000803ff76bdc3ee198263f00000000000000000000803f0000803f0000803f0000803ff0c2e03e467d2d3f00000000000000000000803f0000803f0000803f0000803fea53e23eb5ab343f00000000000000000000803f0000803f0000803f0000803f220fe13ecfdd3b3f00000000000000000000803f0000803f0000803f0000803fd70ddd3efcce423f00000000000000000000803f0000803f0000803f0000803f225fd63e8d37493f00000000000000000000803f0000803f0000803f0000803f2451cd3ee2d84e3f00000000000000000000803f0000803f0000803f0000803ff844c23ee281533f00000000000000000000803f0000803f0000803f0000803f6697b53e15fa563f00000000000000000000803f0000803f0000803f0000803faacda73e8b24593f00000000000000000000803f0000803f0000803f0000803f8d70993e7ef2593f00000000000000000000803f0000803f0000803f0000803ff60a8b3e0b4f593f00000000000000000000803f0000803f0000803f0000803ffc587a3e3a47573f00000000000000000000803f0000803f0000803f0000803fa0ad603e89f4533f00000000000000000000803f0000803f0000803f0000803f642a4a3e186c4f3f00000000000000000000803f0000803f0000803f0000803f70a2373e3ce1493f00000000000000000000803f0000803f0000803f0000803fa4b3293e878c433f00000000000000000000803f0000803f0000803f0000803f36fc203e3ca93c3f00000000000000000000803f0000803f0000803f0000803f1cd11d3e667a353f00000000000000000000803f0000803f0000803f0000803fd650203e7c472e3f00000000000000000000803f0000803f0000803f0000803f7e61283ebd56273f00000000000000000000803f0000803f0000803f0000803ff8c7353eaaef203f00000000000000000000803f0000803f0000803f0000803fd0ea473ed74f1b3f00000000000000000000803f0000803f0000803f0000803ff4065e3e0fa9163f00000000000000000000803f0000803f0000803f0000803f2859773e342d133f00000000000000000000803f0000803f0000803f0000803f8776893e3304113f00000000000000000000803f0000803f0000803f0000803fd8d2973ee637103f00000000000000000000803f0000803f0000803f0000803f6937a63e2edc103f00000000000000000000803f0000803f0000803f0000803f8b18b43e25de123f00000000000000000000803f0000803f0000803f0000803fbdf58e3c9c22443f00000000000000000000803f0000803f0000803f0000803f76870c3deadf513f00000000000000000000803f0000803f0000803f0000803f3acf3a3ca4d3353f00000000000000000000803f0000803f0000803f0000803f7d15863c5080273f00000000000000000000803f0000803f0000803f0000803fbe9f033dc8b5193f00000000000000000000803f0000803f0000803f0000803f76ce6d3d0df60c3f00000000000000000000803f0000803f0000803f0000803feff3be3d76bd013f00000000000000000000803f0000803f0000803f0000803f3c990b3e00fff03e00000000000000000000803f0000803f0000803f0000803f68093e3e302fe33e00000000000000000000803f0000803f0000803f0000803f9ce1743e9088da3e00000000000000000000803f0000803f0000803f0000803fd606973e186bd73e00000000000000000000803f0000803f0000803f0000803f24acb33e90e9d93e00000000000000000000803f0000803f0000803f0000803fc245cf3e10f7e13e00000000000000000000803f0000803f0000803f0000803f2bc8e83eb038ef3e00000000000000000000803f0000803f0000803f0000803fa832ff3ef09a003f00000000000000000000803f0000803f0000803f0000803f8cd8083f99990b3f00000000000000000000803f0000803f0000803f0000803f03c70f3fb731183f00000000000000000000803f0000803f0000803f0000803f071f143fb9e7253f00000000000000000000803f0000803f0000803f0000803f23b5153f7b35343f00000000000000000000803f0000803f0000803f0000803f8878143f308e423f00000000000000000000803f0000803f0000803f0000803f9e72103f4460503f00000000000000000000803f0000803f0000803f0000803fa7d1093f5e255d3f00000000000000000000803f0000803f0000803f0000803f9ad1003f8062683f00000000000000000000803f0000803f0000803f0000803fce96eb3e7ca3713f00000000000000000000803f0000803f0000803f0000803fba5fd23e5c92783f00000000000000000000803f0000803f0000803f0000803fb6eab63e0eea7c3f00000000000000000000803f0000803f0000803f0000803fee4b9a3ea87b7e3f00000000000000000000803f0000803f0000803f0000803fce3e7b3ea93d7d3f00000000000000000000803f0000803f0000803f0000803f94eb433e0c38793f00000000000000000000803f0000803f0000803f0000803f10d5103e8191723f00000000000000000000803f0000803f0000803f0000803fafc9c73d868f693f00000000000000000000803f0000803f0000803f0000803fc64a7b3d0e855e3f00000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f00000000000000000000000010000000000000000000803f0000000000000000000000001000000000000000
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 1.5017221, z: 0.07060583}
+    m_Extent: {x: 0.08216402, y: 0.029567778, z: 0.02106492}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
