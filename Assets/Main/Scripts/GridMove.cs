@@ -35,10 +35,10 @@ public class GridMove : MonoBehaviour
     void Update()
     {
         Vector3 _playerPosition = transform.position;
-        var current = Keyboard.current; //Œ»İ‚ÌƒL[ƒ{[ƒhî•ñ‚ğæ“¾
+        var current = Keyboard.current; //ï¿½ï¿½ï¿½İ‚ÌƒLï¿½[ï¿½{ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½æ“¾
         _currentPosition = new Vector2(_playerPosition.x, _playerPosition.z);
 
-        if (current == null) //ƒL[ƒ{[ƒh‚ÌÚ‘±ƒ`ƒFƒbƒN
+        if (current == null) //ï¿½Lï¿½[ï¿½{ï¿½[ï¿½hï¿½ÌÚ‘ï¿½ï¿½`ï¿½Fï¿½bï¿½N
         {
             return;
         }
@@ -52,6 +52,10 @@ public class GridMove : MonoBehaviour
                 {
                     _tempMoveDirectionValue = 1;
                 }
+                if(_operationInterrupt)
+                {
+                    _tempMoveDirectionValue = 3;
+                }
                 gridMoveDirection(_tempMoveDirectionValue);
             }
             else if (current.wKey.isPressed && current.aKey.isPressed && !current.sKey.isPressed && !current.dKey.isPressed)
@@ -59,6 +63,10 @@ public class GridMove : MonoBehaviour
                 if (!_operationInterrupt)
                 {
                     _tempMoveDirectionValue = 2;
+                }
+                if(_operationInterrupt)
+                {
+                    _tempMoveDirectionValue = 4;
                 }
                 gridMoveDirection(_tempMoveDirectionValue);
             }
@@ -68,6 +76,10 @@ public class GridMove : MonoBehaviour
                 {
                     _tempMoveDirectionValue = 3;
                 }
+                if(_operationInterrupt)
+                {
+                    _tempMoveDirectionValue = 1;
+                }
                 gridMoveDirection(_tempMoveDirectionValue);
             }
             else if (!current.wKey.isPressed && !current.aKey.isPressed && current.sKey.isPressed && current.dKey.isPressed)
@@ -75,6 +87,10 @@ public class GridMove : MonoBehaviour
                 if (!_operationInterrupt)
                 {
                     _tempMoveDirectionValue = 4;
+                }
+                if(_operationInterrupt)
+                {
+                    _tempMoveDirectionValue = 2;
                 }
                 gridMoveDirection(_tempMoveDirectionValue);
             }
