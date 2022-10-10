@@ -52,10 +52,6 @@ public class GridMove : MonoBehaviour
                 {
                     _tempMoveDirectionValue = 1;
                 }
-                if(_operationInterrupt)
-                {
-                    _tempMoveDirectionValue = 3;
-                }
                 gridMoveDirection(_tempMoveDirectionValue);
             }
             else if (current.wKey.isPressed && current.aKey.isPressed && !current.sKey.isPressed && !current.dKey.isPressed)
@@ -63,10 +59,6 @@ public class GridMove : MonoBehaviour
                 if (!_operationInterrupt)
                 {
                     _tempMoveDirectionValue = 2;
-                }
-                if(_operationInterrupt)
-                {
-                    _tempMoveDirectionValue = 4;
                 }
                 gridMoveDirection(_tempMoveDirectionValue);
             }
@@ -76,10 +68,6 @@ public class GridMove : MonoBehaviour
                 {
                     _tempMoveDirectionValue = 3;
                 }
-                if(_operationInterrupt)
-                {
-                    _tempMoveDirectionValue = 1;
-                }
                 gridMoveDirection(_tempMoveDirectionValue);
             }
             else if (!current.wKey.isPressed && !current.aKey.isPressed && current.sKey.isPressed && current.dKey.isPressed)
@@ -87,10 +75,6 @@ public class GridMove : MonoBehaviour
                 if (!_operationInterrupt)
                 {
                     _tempMoveDirectionValue = 4;
-                }
-                if(_operationInterrupt)
-                {
-                    _tempMoveDirectionValue = 2;
                 }
                 gridMoveDirection(_tempMoveDirectionValue);
             }
