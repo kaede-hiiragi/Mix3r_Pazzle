@@ -13,8 +13,15 @@ public class GridMove : MonoBehaviour
 
     Vector2 _firstPositon;
     Vector2 _previousPosition;
+    [System.NonSerialized]
     public Vector2 _destinationPosition;
+    [System.NonSerialized]
     public Vector2 _currentPosition;
+    [System.NonSerialized]
+    public int _moveDirection;
+
+    public int _tempMoveDirectionValue;
+    public bool _operationInterrupt = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,27 +48,35 @@ public class GridMove : MonoBehaviour
             _previousPosition = new Vector2(Mathf.Floor(_playerPosition.x), Mathf.Floor(_playerPosition.z));
             if (current.wKey.isPressed && !current.aKey.isPressed && !current.sKey.isPressed && current.dKey.isPressed)
             {
-                _destinationPosition += Vector2.right;
-                _input.move = new Vector2(1, 1);
-                _isMoving = true;
+                if(!_operationInterrupt)
+                {
+                    _tempMoveDirectionValue = 1;
+                }
+                gridMoveDirection(_tempMoveDirectionValue);
             }
             else if (current.wKey.isPressed && current.aKey.isPressed && !current.sKey.isPressed && !current.dKey.isPressed)
             {
-                _destinationPosition += Vector2.up;
-                _input.move = new Vector2(-1, 1);
-                _isMoving = true;
+                if (!_operationInterrupt)
+                {
+                    _tempMoveDirectionValue = 2;
+                }
+                gridMoveDirection(_tempMoveDirectionValue);
             }
             else if (!current.wKey.isPressed && current.aKey.isPressed && current.sKey.isPressed && !current.dKey.isPressed)
             {
-                _destinationPosition += Vector2.left;
-                _input.move = new Vector2(-1, -1);
-                _isMoving = true;
+                if (!_operationInterrupt)
+                {
+                    _tempMoveDirectionValue = 3;
+                }
+                gridMoveDirection(_tempMoveDirectionValue);
             }
             else if (!current.wKey.isPressed && !current.aKey.isPressed && current.sKey.isPressed && current.dKey.isPressed)
             {
-                _destinationPosition += Vector2.down;
-                _input.move = new Vector2(1, -1);
-                _isMoving = true;
+                if (!_operationInterrupt)
+                {
+                    _tempMoveDirectionValue = 4;
+                }
+                gridMoveDirection(_tempMoveDirectionValue);
             }
         }
 
@@ -74,14 +89,7 @@ public class GridMove : MonoBehaviour
             _input.sprint = false;
         }
 
-        if (_isMoving == true)
-        {
-            if (!current.wKey.isPressed && !current.aKey.isPressed && !current.sKey.isPressed && !current.dKey.isPressed)
-            {
-            }
-        }
-
-        if (_isMoving == true && ((_destinationPosition-_currentPosition).magnitude <= 0.1f || (_destinationPosition - _currentPosition).magnitude >= 2.0f))
+        if ((_isMoving == true && (_destinationPosition-_currentPosition).magnitude <= 0.1f) || (_destinationPosition - _currentPosition).magnitude >= 2.0f)
         {
             _input.move = Vector2.zero;
             if (!current.wKey.isPressed && !current.aKey.isPressed && !current.sKey.isPressed && !current.dKey.isPressed)
@@ -102,5 +110,32 @@ public class GridMove : MonoBehaviour
         GUILayout.Label($"_currentPosition.x: {_currentPosition.x}");
         GUILayout.Label($"_currentPosition.y: {_currentPosition.y}");
         GUILayout.Label($"distance: {(_destinationPosition - _currentPosition).magnitude}");
+    }
+
+    void gridMoveDirection(int moveDirection)
+    {
+        switch(moveDirection)
+        {
+            case 1:
+                _destinationPosition += Vector2.right;
+                _input.move = new Vector2(1, 1);
+                _isMoving = true;
+                break;
+            case 2:
+                _destinationPosition += Vector2.up;
+                _input.move = new Vector2(-1, 1);
+                _isMoving = true;
+                break;
+            case 3:
+                _destinationPosition += Vector2.left;
+                _input.move = new Vector2(-1, -1);
+                _isMoving = true;
+                break;
+            case 4:
+                _destinationPosition += Vector2.down;
+                _input.move = new Vector2(1, -1);
+                _isMoving = true;
+                break;
+        }
     }
 }
