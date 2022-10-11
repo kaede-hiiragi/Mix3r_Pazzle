@@ -9,7 +9,8 @@ public class GridMove : MonoBehaviour
     private CharacterController _controller;
     private StarterAssetsInputs _input;
 
-    bool _isMoving = false;
+    [System.NonSerialized]
+    public bool _isMoving = false;
 
     Vector2 _firstPositon;
     Vector2 _previousPosition;
