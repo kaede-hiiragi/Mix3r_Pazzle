@@ -113,8 +113,6 @@ public class GridMove : MonoBehaviour
 
         GameManager.instance._playerPosition.x = _destinationPosition.x;
         GameManager.instance._playerPosition.z = _destinationPosition.y;
-        print(GameManager.instance._playerPosition.y);
-        print(Mathf.Floor(_playerPosition.y));
     }
     void OnGUI()
     {
