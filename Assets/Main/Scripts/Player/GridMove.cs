@@ -103,15 +103,6 @@ public class GridMove : MonoBehaviour
             _isMoving = false;
         }
     }
-    void OnGUI()
-    {
-        GUILayout.Label($"_isMoving: {_isMoving}");
-        GUILayout.Label($"_destinationPosition.x: {_destinationPosition.x}");
-        GUILayout.Label($"_destinationPosition.y: {_destinationPosition.y}");
-        GUILayout.Label($"_currentPosition.x: {_currentPosition.x}");
-        GUILayout.Label($"_currentPosition.y: {_currentPosition.y}");
-        GUILayout.Label($"distance: {(_destinationPosition - _currentPosition).magnitude}");
-    }
 
     void gridMoveDirection(int moveDirection)
     {
