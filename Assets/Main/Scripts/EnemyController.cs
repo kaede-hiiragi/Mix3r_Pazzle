@@ -38,7 +38,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        Vector3 enemyPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        Vector3 enemyPos = transform.position;
         if (is_move && ((gridMove._destinationPosition - gridMove._currentPosition).magnitude <= 0.1f) || (gridMove._destinationPosition - gridMove._currentPosition).magnitude >= 2.0f)
         {
             Vector3 playerPos = new Vector3(gridMove._destinationPosition.x, this.transform.position.y, gridMove._destinationPosition.y);
@@ -46,23 +46,23 @@ public class EnemyController : MonoBehaviour
             Vector3 move = playerPos - enemyPos;
             Debug.Log(playerPos);
 
-            if (move.x > 0f && move.z > 0f)
+            if (move.x != 0f && move.z != 0f)
             {
-                int moveIndex = Random.Range(0, 1);
+                int moveIndex = Random.Range(0, 2);
                 Debug.Log(moveIndex);
                 if (moveIndex == 0)
                 {
-                    enemyPos.x += Mathf.Abs(move.x) * 1 / move.x;
+                    enemyPos.x += Mathf.Abs(move.x) / move.x;
                 } else
                 {
-                    enemyPos.z += Mathf.Abs(move.z) * 1 / move.z;
+                    enemyPos.z += Mathf.Abs(move.z) / move.z;
                 }
-            } else if (move.x > 0f)
+            } else if (move.x != 0f)
             {
-                enemyPos.x += Mathf.Abs(move.x) * 1 / move.x;
-            } else
+                enemyPos.x += Mathf.Abs(move.x) / move.x;
+            } else if (move.z != 0f)
             {
-                enemyPos.z += Mathf.Abs(move.z) * 1 / move.z;
+                enemyPos.z += Mathf.Abs(move.z) / move.z;
             }
         }
 
