@@ -44,12 +44,12 @@ public class GridMove : MonoBehaviour
             return;
         }
 
-        if(_isMoving == false)
+        if (_isMoving == false)
         {
             _previousPosition = new Vector2(Mathf.Floor(_playerPosition.x), Mathf.Floor(_playerPosition.z));
             if (current.wKey.isPressed && !current.aKey.isPressed && !current.sKey.isPressed && current.dKey.isPressed)
             {
-                if(!_operationInterrupt)
+                if (!_operationInterrupt)
                 {
                     _tempMoveDirectionValue = 1;
                 }
@@ -81,7 +81,7 @@ public class GridMove : MonoBehaviour
             }
         }
 
-        if(current.shiftKey.isPressed)
+        if (current.shiftKey.isPressed)
         {
             _input.sprint = true;
         }
@@ -90,18 +90,28 @@ public class GridMove : MonoBehaviour
             _input.sprint = false;
         }
 
-        if ((_isMoving == true && (_destinationPosition-_currentPosition).magnitude <= 0.1f) || (_destinationPosition - _currentPosition).magnitude >= 2.0f)
+        if ((_isMoving == true && (_destinationPosition - _currentPosition).magnitude <= 0.1f) || (_destinationPosition - _currentPosition).magnitude >= 2.0f)
         {
             _input.move = Vector2.zero;
             if (!current.wKey.isPressed && !current.aKey.isPressed && !current.sKey.isPressed && !current.dKey.isPressed)
             {
                 _controller.enabled = false;
-                transform.position = new Vector3(_destinationPosition.x, transform.position.y, _destinationPosition.y);
+                transform.position = new Vector3(_destinationPosition.x, GameManager.instance._playerPosition.z, _destinationPosition.y);
                 _controller.enabled = true;
             }
 
             _isMoving = false;
         }
+
+        if (GameManager.instance._playerPosition.y > _playerPosition.y)
+        {
+            _controller.enabled = false;
+            transform.position = new Vector3(_playerPosition.x, GameManager.instance._playerPosition.y, _playerPosition.z);
+            _controller.enabled = true;
+        }
+
+        GameManager.instance._playerPosition.x = _destinationPosition.x;
+        GameManager.instance._playerPosition.z = _destinationPosition.y;
     }
 
     void gridMoveDirection(int moveDirection)

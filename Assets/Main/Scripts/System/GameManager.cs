@@ -5,7 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance = null;
-    public Vector2 _playerPosition;
+    public Vector3 _playerSpawnPosition;
+    public Vector3 _playerPosition;
     private void Awake()
     {
         if(instance == null)
