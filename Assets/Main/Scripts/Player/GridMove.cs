@@ -30,6 +30,7 @@ public class GridMove : MonoBehaviour
         _input = GetComponent<StarterAssetsInputs>();
 
         _destinationPosition = new Vector2(transform.position.x, transform.position.z);
+        _previousPosition = GameManager.instance._playerSpawnPosition;
     }
 
     // Update is called once per frame
@@ -96,22 +97,35 @@ public class GridMove : MonoBehaviour
             if (!current.wKey.isPressed && !current.aKey.isPressed && !current.sKey.isPressed && !current.dKey.isPressed)
             {
                 _controller.enabled = false;
-                transform.position = new Vector3(_destinationPosition.x, GameManager.instance._playerPosition.z, _destinationPosition.y);
+                transform.position = new Vector3(_destinationPosition.x, GameManager.instance._playerPosition.y, _destinationPosition.y);
                 _controller.enabled = true;
             }
 
             _isMoving = false;
         }
 
-        if (GameManager.instance._playerPosition.y > _playerPosition.y)
+        if (GameManager.instance._playerPosition.y > Mathf.Ceil(_playerPosition.y))
         {
             _controller.enabled = false;
-            transform.position = new Vector3(_playerPosition.x, GameManager.instance._playerPosition.y, _playerPosition.z);
+            transform.position = new Vector3(transform.position.x, GameManager.instance._playerPosition.y, transform.position.z);
             _controller.enabled = true;
         }
 
         GameManager.instance._playerPosition.x = _destinationPosition.x;
         GameManager.instance._playerPosition.z = _destinationPosition.y;
+        print(GameManager.instance._playerPosition.y);
+        print(Mathf.Floor(_playerPosition.y));
+    }
+    void OnGUI()
+    {
+        GUILayout.Label($"_isMoving: {_isMoving}");
+        GUILayout.Label($"_destinationPosition.x: {_destinationPosition.x}");
+        GUILayout.Label($"_destinationPosition.y: {_destinationPosition.y}");
+        GUILayout.Label($"_currentPosition.x: {_currentPosition.x}");
+        GUILayout.Label($"_currentPosition.y: {_currentPosition.y}");
+        GUILayout.Label($"_previousPosition.x: {_previousPosition.x}");
+        GUILayout.Label($"_previousPosition.y: {_previousPosition.y}");
+        GUILayout.Label($"distance: {(_destinationPosition - _currentPosition).magnitude}");
     }
 
     void gridMoveDirection(int moveDirection)
