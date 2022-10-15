@@ -8,12 +8,15 @@ public class EnemyController : MonoBehaviour
     private GridMove gridMove;
     public GameObject _destination;
 
+    PlayerHealthController playerHealthController;
+
     public bool is_move = false;
     private float firstPosY;
     // Start is called before the first frame update
     void Start()
     {
         gridMove = player.GetComponent<GridMove>();
+        playerHealthController = player.GetComponent<PlayerHealthController>();
         firstPosY = transform.position.y;
     }
 
@@ -68,4 +71,14 @@ public class EnemyController : MonoBehaviour
 
         transform.position = enemyPos;
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            playerHealthController.ChangeHealth(-1);
+            Destroy(gameObject);
+        }
+    }
+
 }
