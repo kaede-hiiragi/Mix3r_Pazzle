@@ -2536,6 +2536,7 @@ GameObject:
   - component: {fileID: 1542491982}
   - component: {fileID: 1542491981}
   - component: {fileID: 1542491980}
+  - component: {fileID: 1542491985}
   m_Layer: 0
   m_Name: Sphere Reverse
   m_TagString: Untagged
@@ -2550,9 +2551,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542491979}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f19518fc1275214daa65db2bfcf466c, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ae6427c1673b58408e0dbf97f89e3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &1542491981
@@ -2631,6 +2632,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1542491985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542491979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9272e18eb85022c4b98202b8066b852e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1630147600
 PrefabInstance:
   m_ObjectHideFlags: 0
