@@ -1,42 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using StarterAssets;
 
-public class EnemyController : MonoBehaviour
+public class ChaseEnemy : MonoBehaviour
 {
     public GameObject player;
     private GridMove gridMove;
-    public GameObject _destination;
-
-    PlayerHealthController playerHealthController;
 
     public bool is_move = false;
-    private float firstPosY;
     // Start is called before the first frame update
     void Start()
     {
         gridMove = player.GetComponent<GridMove>();
-        playerHealthController = player.GetComponent<PlayerHealthController>();
-        firstPosY = transform.position.y;
     }
 
     // Update is called once per frame
     void Update()
     {
         is_move = gridMove._isMoving;
-        if (transform.position.y < firstPosY - 1.0f)
-        {
-            player.GetComponent<CharacterController>().enabled = false;
-            player.gameObject.transform.position = _destination.transform.position;
-            player.GetComponent<GridMove>()._destinationPosition.x = _destination.transform.position.x;
-            player.GetComponent<GridMove>()._destinationPosition.y = _destination.transform.position.z;
-            player.GetComponent<CharacterController>().enabled = true;
-            if (_destination.GetComponent<WarpPoint>())
-            {
-                _destination.GetComponent<WarpPoint>()._isWarp = false;
-            }
-            Destroy(gameObject);        
-        }
     }
 
     
@@ -73,11 +55,11 @@ public class EnemyController : MonoBehaviour
         transform.position = enemyPos;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            playerHealthController.ChangeHealth(-1);
+            PlayerHealthController.instance.ChangeHealth(-1);
             Destroy(gameObject);
         }
     }
