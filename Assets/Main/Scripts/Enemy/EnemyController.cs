@@ -20,6 +20,7 @@ public class EnemyController : MonoBehaviour
         firstPosY = transform.position.y;
     }
 
+    // Update is called once per frame
     void Update()
     {
         is_move = gridMove._isMoving;
@@ -38,7 +39,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
+    
     void LateUpdate()
     {
         Vector3 enemyPos = transform.position;
