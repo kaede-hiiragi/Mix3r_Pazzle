@@ -30,7 +30,6 @@ public class ChaseEnemy : MonoBehaviour
             Vector3 playerPos = new Vector3(gridMove._destinationPosition.x, this.transform.position.y, gridMove._destinationPosition.y);
             
             Vector3 move = playerPos - enemyPos;
-            Debug.Log(playerPos);
 
             if (move.x != 0f && move.z != 0f)
             {
