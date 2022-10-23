@@ -1763,6 +1763,7 @@ GameObject:
   - component: {fileID: 665654957}
   - component: {fileID: 665654956}
   - component: {fileID: 665654955}
+  - component: {fileID: 665654963}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -2023,6 +2024,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &665654963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665654954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9041d2707beed4bba12da1f63f8bca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
 --- !u!1 &667452323
 GameObject:
   m_ObjectHideFlags: 0
@@ -2053,6 +2067,63 @@ Transform:
   m_Father: {fileID: 665654962}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &892015605
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6643747793836438209, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643747793836438214, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643747793836438214, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8397598
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643747793836438214, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3455055
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643747793836438214, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.2254546
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643747793836438214, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643747793836438214, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643747793836438214, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643747793836438214, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643747793836438214, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643747793836438214, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643747793836438214, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
 --- !u!1 &949143351
 GameObject:
   m_ObjectHideFlags: 0
@@ -2551,7 +2622,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542491979}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ae6427c1673b58408e0dbf97f89e3c6, type: 3}
   m_Name: 
@@ -2639,7 +2710,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542491979}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9272e18eb85022c4b98202b8066b852e, type: 3}
   m_Name: 
