@@ -6,12 +6,14 @@ using UnityEngine.UI;
 public class PlayerHealthController : MonoBehaviour
 {
     // Start is called before the first frame update
+    static public PlayerHealthController instance;
     public int maxHealth = 3;
     private int health;
 
     public Image[] healthImages;
     void Start()
     {
+        instance = this;
         health = maxHealth;
     }
 
