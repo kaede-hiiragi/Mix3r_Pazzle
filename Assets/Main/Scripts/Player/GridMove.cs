@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using StarterAssets;
+using System.Linq;
 
 public class GridMove : MonoBehaviour
 {
@@ -131,25 +132,67 @@ public class GridMove : MonoBehaviour
         switch(moveDirection)
         {
             case 1:
-                _destinationPosition += Vector2.right;
-                _input.move = new Vector2(1, 1);
-                _isMoving = true;
+                if(isFloor(GameManager.instance._mapsData[GameManager.instance._currentMap], (int)_destinationPosition.x+1, (int)_destinationPosition.y))
+                {
+                    _destinationPosition += Vector2.right;
+                    _input.move = new Vector2(1, 1);
+                    _isMoving = true;
+                }
                 break;
             case 2:
-                _destinationPosition += Vector2.up;
-                _input.move = new Vector2(-1, 1);
-                _isMoving = true;
+                if(isFloor(GameManager.instance._mapsData[GameManager.instance._currentMap], (int)_destinationPosition.x, (int)_destinationPosition.y+1))
+                {
+                    _destinationPosition += Vector2.up;
+                    _input.move = new Vector2(-1, 1);
+                    _isMoving = true;
+                }
                 break;
             case 3:
-                _destinationPosition += Vector2.left;
-                _input.move = new Vector2(-1, -1);
-                _isMoving = true;
+                if(isFloor(GameManager.instance._mapsData[GameManager.instance._currentMap], (int)_destinationPosition.x-1, (int)_destinationPosition.y))
+                {
+                    _destinationPosition += Vector2.left;
+                    _input.move = new Vector2(-1, -1);
+                    _isMoving = true;
+                }
                 break;
             case 4:
-                _destinationPosition += Vector2.down;
-                _input.move = new Vector2(1, -1);
-                _isMoving = true;
+                if(isFloor(GameManager.instance._mapsData[GameManager.instance._currentMap], (int)_destinationPosition.x, (int)_destinationPosition.y-1))
+                {
+                    _destinationPosition += Vector2.down;
+                    _input.move = new Vector2(1, -1);
+                    _isMoving = true;
+                }
                 break;
         }
+    }
+
+    bool isFloor(TextAsset mapDesign, int searchX, int searchY)
+    {
+        string[] _splitedText;
+        int _height;
+        int _width;
+        Vector2 _center;
+
+        _splitedText = mapDesign.text.Split(char.Parse("\n"));
+        
+        int[] _mapInfo;
+        _mapInfo = _splitedText[0].Split(',').Select(int.Parse).ToArray();
+
+        _width = _mapInfo[0];
+        _height = _mapInfo[1];
+        _center = new Vector2((int)(_width/2), (int)(_height/2));
+
+        if((searchX >= _width-_center.x)||(searchX < -_center.x)||(searchY >= _height-_center.y)||(searchY < -_center.y))
+        {
+            return false;
+        }
+
+        int[] _aRowOfMap = _splitedText[(-searchY)+(int)(_center.y)+1].Split(',').Select(int.Parse).ToArray();
+        if(_aRowOfMap[searchX+(int)(_center.x)] == -1)
+        {
+            return false;
+        }
+
+        return true;
     }
 }
