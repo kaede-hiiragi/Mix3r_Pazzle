@@ -54,7 +54,7 @@ public class ReverseMoveRandom : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        print("reverse");
+        print("random");
         var random = new System.Random();
         
         numbers = numbers.OrderBy(x => random.Next()).ToList();
