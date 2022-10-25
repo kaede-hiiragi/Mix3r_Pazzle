@@ -8,6 +8,7 @@ public class ChaseEnemy : MonoBehaviour
     public GameObject player;
     private GridMove gridMove;
 
+
     public bool is_move = false;
     // Start is called before the first frame update
     void Start()

@@ -10,6 +10,8 @@ public class PlayerHealthController : MonoBehaviour
     public int maxHealth = 3;
     private int health;
 
+    public GameObject warpObject;
+
     public Image[] healthImages;
     void Start()
     {
@@ -36,6 +38,11 @@ public class PlayerHealthController : MonoBehaviour
                 healthImages[i].gameObject.SetActive(false);
             }
             
+        }
+
+        if (health == 0)
+        {
+            warpObject.SetActive(true);
         }
     }
 }
