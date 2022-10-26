@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6643747793836438214}
   - component: {fileID: 6643747793836438215}
+  - component: {fileID: 5698722547440810798}
   m_Layer: 6
   m_Name: GameManager
   m_TagString: Untagged
@@ -43,3 +44,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9e24add0e573c341abba8b71914df2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerSpawnPosition: {x: 0, y: 0, z: 0}
+  _playerPosition: {x: 0, y: 0, z: 0}
+  _mapsData: []
+  _currentMap: 0
+--- !u!114 &5698722547440810798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6643747793836438209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55b3cad2126ea10499b5fce546eb545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _component: []
+  _mapParentGameObject: {fileID: 0}
+  _regenerateAMap: 0
