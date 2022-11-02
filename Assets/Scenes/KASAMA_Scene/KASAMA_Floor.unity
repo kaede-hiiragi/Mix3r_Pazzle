@@ -840,7 +840,7 @@ PrefabInstance:
       objectReference: {fileID: 1336991784}
     - target: {fileID: 5698722547440810798, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
       propertyPath: _component.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5698722547440810798, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
       propertyPath: _component.Array.data[0]
@@ -850,6 +850,10 @@ PrefabInstance:
       propertyPath: _component.Array.data[1]
       value: 
       objectReference: {fileID: 8708589533368768996, guid: cde02e2feeb5f5c409f47c6bf05cb21a, type: 3}
+    - target: {fileID: 5698722547440810798, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: _component.Array.data[2]
+      value: 
+      objectReference: {fileID: 689888149900833841, guid: 1ba292a3446949e428b57766fdf39076, type: 3}
     - target: {fileID: 6643747793836438209, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
       propertyPath: m_Name
       value: GameManager
@@ -904,6 +908,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6643747793836438215, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
       propertyPath: _mapsData.Array.data[0]
+      value: 
+      objectReference: {fileID: 4900000, guid: 403a80b4a6277ec44a8db5ebe3a0e33c, type: 3}
+    - target: {fileID: 6643747793836438215, guid: 95987a799c2ee5347b1536a58fecc3ad, type: 3}
+      propertyPath: _mapsData.Array.data[1]
       value: 
       objectReference: {fileID: 4900000, guid: 403a80b4a6277ec44a8db5ebe3a0e33c, type: 3}
     m_RemovedComponents: []

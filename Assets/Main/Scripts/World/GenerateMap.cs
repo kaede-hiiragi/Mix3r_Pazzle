@@ -10,6 +10,7 @@ public class GenerateMap : MonoBehaviour
     public bool _regenerateAMap;
 
     public List<Transform> enemiesTransform;
+    public List<GameObject> warpPoints;
     // Start is called before the first frame update
     void Start()
     {
@@ -60,8 +61,34 @@ public class GenerateMap : MonoBehaviour
                     {
                         enemiesTransform.Add(_mapComponent.transform);
                     }
+                    if (_mapComponent.CompareTag("WarpPoint"))
+                    {
+                        warpPoints.Add(_mapComponent);
+                    }
                 }
             }
         }
+
+        int index = 1 + _height;
+        while (index < _splitedText.Length)
+        {
+            string[] line = _splitedText[index].Split(' ');
+            index++;
+            string com = line[0];
+            int num = int.Parse(line[1]);
+            if (com == "Warp" || com == "warp")
+            {
+                for (int i = 0; i < num; i++)
+                {
+                    int[] connect = _splitedText[index].Split(' ').Select(int.Parse).ToArray();
+                    index++;
+                    GameObject children1 = warpPoints[connect[0] - 1].transform.GetChild(0).gameObject;
+                    GameObject children2 = warpPoints[connect[1] - 1].transform.GetChild(0).gameObject;
+                    children1.GetComponent<WarpPoint>()._destination = children2;
+                    children2.GetComponent<WarpPoint>()._destination = children1;
+                }
+            }
+        }
+
     }
 }
