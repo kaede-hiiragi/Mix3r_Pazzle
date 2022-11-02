@@ -9,8 +9,11 @@ public class PlayerHealthController : MonoBehaviour
     static public PlayerHealthController instance;
     public int maxHealth = 3;
     private int health;
+    [SerializeField]
+    float mutekiTime = 5f;
+    float mutekiTimer = 0f;
 
-    public GameObject warpObject;
+    //public GameObject warpObject;
 
     public Image[] healthImages;
     void Start()
@@ -22,7 +25,19 @@ public class PlayerHealthController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (mutekiTimer > 0f)
+        {
+            mutekiTimer -= Time.deltaTime;
+        }
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if(hit.gameObject.CompareTag("Enemy") && mutekiTimer <= 0f)
+        {
+            mutekiTimer = mutekiTime;
+            ChangeHealth(-1);
+        }
     }
 
     public void ChangeHealth(int value)
@@ -42,7 +57,7 @@ public class PlayerHealthController : MonoBehaviour
 
         if (health == 0)
         {
-            warpObject.SetActive(true);
+            //warpObject.SetActive(true);
         }
     }
 }
