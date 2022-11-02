@@ -111,6 +111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _initialMaterial: {fileID: 0}
   _steppedMaterial: {fileID: 2100000, guid: 9639e17dffc656345a70282f7f216672, type: 2}
+  _enemyMaterial: {fileID: 2100000, guid: 0853bc5b4aa64a84290ddabf4a07b266, type: 2}
 --- !u!65 &8708589533368769006
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -8,6 +8,8 @@ public class GenerateMap : MonoBehaviour
     public GameObject[] _component;
     public GameObject _mapParentGameObject;
     public bool _regenerateAMap;
+
+    public List<Transform> enemiesTransform;
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +56,10 @@ public class GenerateMap : MonoBehaviour
                     GameObject _mapComponent = Instantiate(_component[_aRowOfMap[j]]);
                     _mapComponent.transform.parent = _mapParentGameObject.transform;
                     _mapComponent.transform.position = new Vector3(j-_center.x, 0, (-i)+_center.y+1);
+                    if (_mapComponent.CompareTag("Enemy"))
+                    {
+                        enemiesTransform.Add(_mapComponent.transform);
+                    }
                 }
             }
         }
