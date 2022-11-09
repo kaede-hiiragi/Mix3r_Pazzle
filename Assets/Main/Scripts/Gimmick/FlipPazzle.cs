@@ -6,12 +6,14 @@ public class FlipPazzle : MonoBehaviour
 {
     public GameObject[] _targetObjects;
     public GameObject _door;
+    public GameObject[] _slaveObjects;
 
     public Material _offMaterial;
     public Material _onMaterial;
 
     public bool _currentCondition = false;
     public bool _isMaster = false;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,16 +23,22 @@ public class FlipPazzle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // bool _switchCondition = GameManager.instance._playerPosition.x == this.transform.position.x && GameManager.instance._playerPosition.z == this.transform.position.z;
-        
-        // if(!_switchCondition)
-        // {
-        //     this.GetComponent<Renderer>().material = _offMaterial;
-        // }
-        // else
-        // {
-        //     this.GetComponent<Renderer>().material = _onMaterial;
-        // }
+        bool _isSolved = true;
+        if(_isMaster)
+        {
+            foreach(GameObject _slave in _slaveObjects)
+            {
+                if(_slave.GetComponent<FlipPazzle>()._currentCondition == false)
+                {
+                    _isSolved = false;
+                }   
+            }
+            
+            if(_isSolved)
+            {
+                print("clear");
+            }
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -50,11 +58,12 @@ public class FlipPazzle : MonoBehaviour
             if(_targetObject.GetComponent<FlipPazzle>()._currentCondition)
             {
                 _targetObject.GetComponent<Renderer>().material = _offMaterial;
+                _targetObject.GetComponent<FlipPazzle>()._currentCondition = !_targetObject.GetComponent<FlipPazzle>()._currentCondition;
             }
             else if(!_targetObject.GetComponent<FlipPazzle>()._currentCondition)
             {
                 _targetObject.GetComponent<Renderer>().material = _onMaterial;
-
+                _targetObject.GetComponent<FlipPazzle>()._currentCondition = !_targetObject.GetComponent<FlipPazzle>()._currentCondition;
             }
         }
     }
