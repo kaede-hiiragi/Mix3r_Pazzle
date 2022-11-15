@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 489816603014633905}
   - component: {fileID: 792951405726512697}
   - component: {fileID: 1468622187345946529}
-  - component: {fileID: 6310951556924588948}
+  - component: {fileID: 7222517827606361603}
   m_Layer: 0
   m_Name: clearPoint
   m_TagString: Untagged
@@ -96,7 +96,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6310951556924588948
+--- !u!114 &7222517827606361603
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,10 +105,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3432953964196414285}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebe8ba4eb1231ff488f0fe707251d743, type: 3}
+  m_Script: {fileID: 11500000, guid: a5d3076e41eca754c9b82195c51f5373, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  a: {fileID: 0}
 --- !u!1 &8590251195560876649
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +124,7 @@ GameObject:
   - component: {fileID: 8590251195560876643}
   m_Layer: 0
   m_Name: clear
-  m_TagString: WarpPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
