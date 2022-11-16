@@ -11,6 +11,9 @@ public class GenerateMap : MonoBehaviour
 
     public List<Transform> enemiesTransform;
     public List<GameObject> warpPoints;
+
+    [System.NonSerialized]//敵の探索用の情報
+    public List<List<int>> map_data = new List<List<int>>();
     // Start is called before the first frame update
     void Start()
     {
@@ -49,9 +52,10 @@ public class GenerateMap : MonoBehaviour
 
         for(int i = 1; i <= _height; i++)
         {
-            for(int j = 0; j < _width; j++)
+            int[] _aRowOfMap = _splitedText[i].Split(',').Select(int.Parse).ToArray();
+            map_data.Add(_aRowOfMap.ToList());
+            for (int j = 0; j < _width; j++)
             {
-                int[] _aRowOfMap = _splitedText[i].Split(',').Select(int.Parse).ToArray();
                 if(_aRowOfMap[j] != -1)
                 {
                     GameObject _mapComponent = Instantiate(_component[_aRowOfMap[j]]);
@@ -69,13 +73,14 @@ public class GenerateMap : MonoBehaviour
             }
         }
 
+        //Warp, Enemyの処理
         int index = 1 + _height;
         while (index < _splitedText.Length)
         {
             string[] line = _splitedText[index].Split(' ');
             index++;
-            string com = line[0];
-            int num = int.Parse(line[1]);
+            string com = line[0];//コマンド
+            int num = int.Parse(line[1]);//個数
             if (com == "Warp" || com == "warp")
             {
                 for (int i = 0; i < num; i++)
@@ -89,6 +94,7 @@ public class GenerateMap : MonoBehaviour
                 }
             }
         }
+
 
     }
 }
