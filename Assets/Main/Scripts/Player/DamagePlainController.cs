@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class DamagePlainController : MonoBehaviour
 {
-    public GameObject player;
     PlayerHealthController playerHealthController;
     // Start is called before the first frame update
     void Start()
     {
-        playerHealthController = player.GetComponent<PlayerHealthController>();
     }
 
     // Update is called once per frame
@@ -22,6 +20,7 @@ public class DamagePlainController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            PlayerHealthController playerHealthController= other.gameObject.GetComponent<PlayerHealthController>();
             playerHealthController.ChangeHealth(-1);
         }
     }
