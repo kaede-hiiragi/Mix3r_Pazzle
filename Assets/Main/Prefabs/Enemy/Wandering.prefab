@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3928701359059702048}
+  - component: {fileID: 8646333802225804887}
   m_Layer: 0
   m_Name: Wandering
   m_TagString: Enemy
@@ -31,6 +32,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8646333802225804887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6396099603464476931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83935ce38752bd45a6e0698555e5700, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
 --- !u!1001 &8793285415880945445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86,7 +100,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wandering Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2399047088669371562, guid: 0648d708654c6df41b748a7cc69319eb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0648d708654c6df41b748a7cc69319eb, type: 3}
 --- !u!4 &6715086832303619996 stripped
 Transform:

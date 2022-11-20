@@ -35,6 +35,10 @@ public class DetectStepped : MonoBehaviour
         bool is_enemy = false;
         for (int i = 0; i < enemies.Count; i++)
         {
+            if (enemies[i] == null)
+            {
+                continue;
+            } 
             is_enemy = is_enemy || enemies[i].transform.position.x == transform.position.x || enemies[i].transform.position.z == transform.position.z;
         }
 

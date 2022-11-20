@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using System;
 
 public class GenerateMap : MonoBehaviour
 {
     public GameObject[] _component;
     public GameObject _mapParentGameObject;
+    public GameObject enemies;
     public bool _regenerateAMap;
 
     public List<Transform> enemiesTransform;
@@ -31,6 +33,18 @@ public class GenerateMap : MonoBehaviour
             }
             generate(GameManager.instance._mapsData[GameManager.instance._currentMap]);
             _regenerateAMap = false;
+        }
+    }
+
+    void LateUpdate()
+    {
+        //“G‚ÌˆÊ’u‚ðŽæ“¾
+        foreach(Transform Obj in _mapParentGameObject.transform)
+        {
+            if (Obj.gameObject.CompareTag("Enemy"))
+            {
+                enemiesTransform.Add(Obj.gameObject.transform);
+            }
         }
     }
 
@@ -61,10 +75,7 @@ public class GenerateMap : MonoBehaviour
                     GameObject _mapComponent = Instantiate(_component[_aRowOfMap[j]]);
                     _mapComponent.transform.parent = _mapParentGameObject.transform;
                     _mapComponent.transform.position = new Vector3(j-_center.x, 0, (-i)+_center.y+1);
-                    if (_mapComponent.CompareTag("Enemy"))
-                    {
-                        enemiesTransform.Add(_mapComponent.transform);
-                    }
+                    
                     if (_mapComponent.CompareTag("WarpPoint"))
                     {
                         warpPoints.Add(_mapComponent);
@@ -91,6 +102,24 @@ public class GenerateMap : MonoBehaviour
                     GameObject children2 = warpPoints[connect[1] - 1].transform.GetChild(0).gameObject;
                     children1.GetComponent<WarpPoint>()._destination = children2;
                     children2.GetComponent<WarpPoint>()._destination = children1;
+                }
+            }
+
+            if (com == "Enemy" || com == "Enemy")
+            {
+                for (int i = 0; i < num; i++)
+                {
+                    string[] lines = _splitedText[index].Split(' ').ToArray();
+                    index++;
+                    List<Tuple<int, int>> points = new List<Tuple<int, int>>();
+                    for (int j = 0; j < lines.Length; j++)
+                    {
+                        List<int> ints = lines[j].Split(',').Select(int.Parse).ToList();
+                        points.Add(new Tuple<int, int>(ints[0], ints[1]));
+                    }
+                    GameObject enemy = Instantiate(enemies, new Vector3(points[0].Item1 - (int)_center.x, 0, -points[1].Item1 + (int)_center.y), Quaternion.identity);
+                    enemy.transform.parent = _mapParentGameObject.transform;
+                    enemy.GetComponent<WanderingEnemy>().point = points;
                 }
             }
         }
