@@ -147,7 +147,7 @@ public class WanderingEnemy : MonoBehaviour
     {
         if (Mathf.Abs(transform.position.x - gridMove._destinationPosition.x) < 0.2f && Mathf.Abs(transform.position.z - gridMove._destinationPosition.y) < 0.2f)
         {
-            PlayerHealthController.instance.ChangeHealth(-1);
+            //PlayerHealthController.instance.ChangeHealth(-1);
             Destroy(gameObject);
         }
 
@@ -157,7 +157,7 @@ public class WanderingEnemy : MonoBehaviour
 
         if (Mathf.Abs(x - gridMove._destinationPosition.x) < 0.2f && Mathf.Abs(y - gridMove._destinationPosition.y) < 0.2f)
         {
-            PlayerHealthController.instance.ChangeHealth(-1);
+            //PlayerHealthController.instance.ChangeHealth(-1);
             Destroy(gameObject);
         }
 

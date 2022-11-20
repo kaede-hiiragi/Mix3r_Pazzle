@@ -21,7 +21,7 @@ public class DamagePlainController : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             PlayerHealthController playerHealthController= other.gameObject.GetComponent<PlayerHealthController>();
-            playerHealthController.ChangeHealth(-1);
+            //playerHealthController.ChangeHealth(-1);
         }
     }
 }
