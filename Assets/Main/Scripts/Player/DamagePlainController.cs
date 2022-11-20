@@ -21,7 +21,7 @@ public class DamagePlainController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            //GameManager.is_gameover = true;
+            gameManager.is_gameover = true;
         }
     }
 }

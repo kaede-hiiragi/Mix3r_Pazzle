@@ -9,22 +9,28 @@ public class TimeCounter : MonoBehaviour
     public int countdownMinutes = 3;
     private float countdownSeconds;
     private Text timeText;
+    private GameManager gameManager;
 
     private void Start()
     {
+        gameManager = GameManager.instance;
         timeText = GetComponent<Text>();
         countdownSeconds = countdownMinutes * 60;
     }
 
     void Update()
-    {
-        countdownSeconds -= Time.deltaTime;
-        var span = new TimeSpan(0, 0, (int)countdownSeconds);
-        timeText.text = span.ToString(@"mm\:ss");
-
-        if (countdownSeconds <= 0)
+    {   
+        if (!gameManager.is_gameover)
         {
-            // 0秒になったときの処理
+            countdownSeconds -= Time.deltaTime;
+            var span = new TimeSpan(0, 0, (int)countdownSeconds);
+            timeText.text = span.ToString(@"mm\:ss");
+
+            if (countdownSeconds <= 0)
+            {
+                gameManager.is_gameover = true;
+            }
         }
+        
     }
 }
