@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 611227887288426641}
   m_Layer: 0
   m_Name: flipPazzle
-  m_TagString: WarpPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -236,6 +236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetObjects: []
   _door: {fileID: 0}
+  _slaveObjects: []
   _offMaterial: {fileID: 0}
   _onMaterial: {fileID: 0}
   _currentCondition: 0

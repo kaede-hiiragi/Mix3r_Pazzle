@@ -14,7 +14,7 @@ public class GenerateMap : MonoBehaviour
     public List<Transform> enemiesTransform;
     public List<GameObject> warpPoints;
 
-    [System.NonSerialized]//“G‚Ì’Tõ—p‚Ìî•ñ
+    [System.NonSerialized]//ï¿½Gï¿½Ì’Tï¿½ï¿½ï¿½pï¿½Ìï¿½ï¿½
     public List<List<int>> map_data = new List<List<int>>();
     // Start is called before the first frame update
     void Start()
@@ -84,14 +84,14 @@ public class GenerateMap : MonoBehaviour
             }
         }
 
-        //Warp, Enemy‚Ìˆ—
+        //Warp, Enemyï¿½Ìï¿½ï¿½ï¿½
         int index = 1 + _height;
         while (index < _splitedText.Length)
         {
             string[] line = _splitedText[index].Split(' ');
             index++;
-            string com = line[0];//ƒRƒ}ƒ“ƒh
-            int num = int.Parse(line[1]);//ŒÂ”
+            string com = line[0];//ï¿½Rï¿½}ï¿½ï¿½ï¿½h
+            int num = int.Parse(line[1]);//ï¿½Âï¿½
             if (com == "Warp" || com == "warp")
             {
                 for (int i = 0; i < num; i++)
