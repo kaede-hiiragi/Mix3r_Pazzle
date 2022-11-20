@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public Vector3 _playerPosition;
     public TextAsset[] _mapsData;
     public int _currentMap;
+    public int _clearCount;
 
     private void Awake()
     {
