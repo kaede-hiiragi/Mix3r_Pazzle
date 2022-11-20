@@ -7,7 +7,7 @@ using System.Linq;
 public class ReverseMoveRandom : MonoBehaviour
 {GameObject PlayerArmature;
     GridMove gridmove;
-    List<int> numbers = new List<int>() {1, 2, 3, 4};
+    public List<int> numbers = new List<int>() {1, 2, 3, 4};
     int i = 0;
     // Start is called before the first frame update
     void Start()

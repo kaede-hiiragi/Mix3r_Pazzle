@@ -9,6 +9,7 @@ public class SpeedUpPoint : MonoBehaviour
     public  GameObject _Character;
     private void OnTriggerEnter(Collider other)
     {
+        _Character = GameObject.Find("PlayerArmature");
         _Character.GetComponent<ThirdPersonController>().MoveSpeed = 4;
         _Character.GetComponent<ThirdPersonController>().SprintSpeed = 8;
         CancelInvoke();
