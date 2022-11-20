@@ -27,6 +27,7 @@ public class Map_change : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         System.Random r = new System.Random();
+        GameManager.instance._clearCount += 1;
         GameManager.instance._currentMap = r.Next(0, 10);
         regenerate_map._regenerateAMap = true;
         other.GetComponent<CharacterController>().enabled = false;
