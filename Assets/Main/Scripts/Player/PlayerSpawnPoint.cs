@@ -18,6 +18,6 @@ public class PlayerSpawnPoint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+    
     }
 }
