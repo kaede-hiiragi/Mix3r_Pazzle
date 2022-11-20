@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using UniGLTF;
 using UnityEngine;
 
 public class WanderingEnemy : MonoBehaviour
@@ -13,6 +14,7 @@ public class WanderingEnemy : MonoBehaviour
     [System.NonSerialized]
     public List<Tuple<int, int>> point = new List<Tuple<int, int>>();
     private GridMove gridMove;
+    private GameManager gameManager;
     public bool is_move = false;
 
     private int _height;
@@ -21,6 +23,7 @@ public class WanderingEnemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = GameManager.instance;
         gridMove = GameObject.Find("PlayerArmature").GetComponent<GridMove>();
 
         m_CurrentWaypointIndex = 0;
@@ -147,7 +150,7 @@ public class WanderingEnemy : MonoBehaviour
     {
         if (Mathf.Abs(transform.position.x - gridMove._destinationPosition.x) < 0.2f && Mathf.Abs(transform.position.z - gridMove._destinationPosition.y) < 0.2f)
         {
-            //PlayerHealthController.instance.ChangeHealth(-1);
+            //GameManager.is_gameover = true;
             Destroy(gameObject);
         }
 
@@ -157,7 +160,7 @@ public class WanderingEnemy : MonoBehaviour
 
         if (Mathf.Abs(x - gridMove._destinationPosition.x) < 0.2f && Mathf.Abs(y - gridMove._destinationPosition.y) < 0.2f)
         {
-            //PlayerHealthController.instance.ChangeHealth(-1);
+            //GameManager.is_gameover = true;
             Destroy(gameObject);
         }
 
